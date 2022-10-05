@@ -1,0 +1,43 @@
+*/ Java Program Using Decision-Making Statements
+-->Program to perform Calculator Operations/*
+
+import java.util.Scanner;
+public class Calculator
+{
+  public static void main(String args[])
+  {
+   int n1,n2,ch,cal;
+   System.out.println("enter two numbers:");
+   Scanner sc=new Scanner(System.in);
+   n1=sc.nextInt();
+   n2=sc.nextInt();
+   System.out.println("enter any operation:");
+   ch=sc.nextInt();
+   if(ch==1)
+   {
+    cal=n1+n2;
+    System.out.println("Addition operation:"+cal);
+   }
+   else if(ch==2)
+   {
+    cal=n1-n2;
+    System.out.println("Substraction operation:"+cal);
+   }
+   else if(ch==3)
+   {
+    cal=n1*n2;
+    System.out.println("Multiplication operation:"+cal);
+   } 
+   else if(ch==4)
+   {
+    cal=n1/n2;
+    System.out.println("Division operation:"+cal);
+   }
+   else
+   {
+    cal=n1%n2;
+    System.out.println("modulo operation:"+cal);
+    sc.close();
+   }
+  }
+}
