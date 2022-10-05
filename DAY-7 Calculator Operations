@@ -41,3 +41,53 @@ public class Calculator
    }
   }
 }
+
+==>Todays problem:
+
+Problem-To perform the calculator operations using decision-making statements using java?
+
+
+
+==>Solution: This problem is simple and the way I have implemented by using the Decision making statements(if and else if) basic arithmetic operations. And it is fully based on users choice. 
+
+
+
+==>Explanation of topic:
+
+Operations of calculator is simple here I have used arithmetic operators of {+ ,- ,* ,/ ,%}
+
+==>Test cases:
+
+-->In case of Operation1:
+
+It will perform Addition Operation
+
+-->In case of Operation2:
+
+It will perform Subtraction Operation
+
+-->In case of Operation3:
+
+It will perform Multiplication Operation
+
+-->In case of Operation4:
+
+It will perform Division Operation
+
+-->In case of Operation5:
+
+It will perform Modulo Operation
+
+
+
+==>Sample Input:
+
+Enter two numbers:
+
+10,15
+
+Select operation to perform:1
+
+==>Output: Addition of two numbers:25 
+
+
