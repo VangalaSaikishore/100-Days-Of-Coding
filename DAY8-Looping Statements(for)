@@ -1,0 +1,44 @@
+*/ java program using looping statement which is for(loop)
+--> program to perform power operation of a particular number which is given by user(Input)/*
+
+import java.util.Scanner;
+public class Power
+{
+ public static void main(String args[])
+ {
+  int n,p,result=1;
+  System.out.println("Enter any number:");
+  Scanner sc=new Scanner(System.in);
+  n=sc.nextInt();
+  System.out.println("Enter the power value:");
+  p=sc.nextInt();
+  for(int i=1;i<=p;i++)
+  {
+    result=n*result;
+  }
+  System.out.println("power of the given number:"+result);   
+  sc.close(); 
+ }   
+}
+
+==>Todays problem:
+problem: To perform the power operation using the looping statements(for loop) using java?
+
+==>Solution:This problem is simple and the way,I have implemented by using the for loop.Which is fully based on users choice.
+
+==>Explanation of the topic:
+
+Operations of power is very simple Here I have used the basic for loop.
+
+==>Test cases:
+=>The user input cannot be an negative number
+=>The Power cannot be Zero.
+
+==>Sample Input:
+Enter any number:
+9
+Enter the power value:
+3
+==>Output:
+power of the given number:729
+
