@@ -1,0 +1,46 @@
+*/ java program using jumping statements which is break statement
+Program to perform prime number logic between the two different range of numbers which is completely user-based.
+
+import java.util.Scanner;
+public class Range
+{
+ public static void main(String args[])
+ {
+   int n1,n2,i,j;
+   System.out.println("Enter any two numbers:");
+   Scanner sc=new Scanner(System.in);
+   n1=sc.nextInt();
+   n2=sc.nextInt();
+   for(i=n1;i<=n2;i++)
+   {
+    for(j=2;j<=i;j++)
+    {
+      if(i%j==0)
+        break;
+    }
+    if(i==j)
+     {
+        System.out.print(j+" ");  
+    }
+   }
+   sc.close();  
+ }   
+}
+
+==>Todays problem:
+To perform the primenumbers logic of between two diffferent numbers which is completely user based.
+
+==>Solution:
+This problem is very simple Here I have implemented by using the jumping statements (Break statements).
+
+==>Test Cases:
+==>The user input cannot be an negative number
+==>And Range should be a same number
+==>Range should not be zero.
+
+==>Sample input:
+Enter any two numbers:
+20
+100
+==>Output:
+23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
