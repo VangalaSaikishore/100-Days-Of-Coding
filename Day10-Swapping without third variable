@@ -21,18 +21,19 @@ public class Swap
 
 ==>Solution:
 Here this problem is very simple Here I have implemented with simple logic:
-a=a+b;
-b=a-b;
-a=a-b;
-
+a=a+b; //a=100+200=300   //(a=100,b=200 currently before swapping)
+b=a-b; //b=300-200=100
+a=a-b; //a=300-100=200
+       // a=200,b=100(After swapping)
+       
 ==>Test Cases:
 Here both numbers cannot be same.
 
 ==>Sample Input:
 Enter any two numbers:
-10
-25
+100
+200
 
 ==>Output:
-Before swapping :10 25
-After Swapping:25 10
+Before swapping :100 200
+After Swapping:200 100
