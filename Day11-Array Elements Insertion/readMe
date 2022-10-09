@@ -1,0 +1,31 @@
+==>Todays problem: program to perform the insertion operation at any index in the array.
+
+==>Solution: 
+Here  this problem is simple and I have implemented with simple logic(Decision making statements)
+
+==>TestCases:
+The elements should not float type,String type
+Both elements Should not be same
+
+==>Sample input:
+enter no of elements in the Array:
+5
+enter elements in the Array:
+10
+12
+14
+18
+20
+
+==>Output:
+enter index value that to insert the element:
+3
+enter new value to insert:
+16
+elements are:
+10
+12
+14
+16
+18
+20
