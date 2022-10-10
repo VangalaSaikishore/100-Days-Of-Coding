@@ -1,0 +1,27 @@
+==>Todays problem: program to perform the deletion operation at any index in the array.
+
+==>Solution: 
+Here  this problem is simple and I have implemented with simple logic(Decision making statements)
+
+==>TestCases:
+The elements should not float type,String type
+Both elements Should not be same
+
+==>Sample Input:
+enter no of elements in the Array:
+5
+enter elements in the Array:
+15
+30
+45
+60
+75
+
+==>Sample Output:
+enter index value that to delete the element:
+3
+elements are:
+15
+30
+45
+75
