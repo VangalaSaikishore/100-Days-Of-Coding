@@ -1,0 +1,22 @@
+==>Todays problem: program to perform the two dimenstional array operation and the elements to print in matrix form
+
+==>Solution: 
+Here  this problem is simple and I have implemented with simple logic using two dimenstional arrays concept.
+
+==>TestCases:
+The elements should not float type,String type.
+
+==>Sample input:
+Enter number of rows:
+2
+Enter number of columns:
+2
+
+==>Sample Output:
+Enter elements in the array:
+10
+20
+30
+40
+10 20
+30 40
