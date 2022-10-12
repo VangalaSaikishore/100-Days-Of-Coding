@@ -1,0 +1,21 @@
+==>Todays problem: program to print elements in the array and to find the length of the elements in the array. 
+==>Solution: 
+Here this problem is simple and I have implemented with simple logic using Arrays concept.
+
+==>TestCases:
+The elements should not float type,String type.
+The elements should not be double type.
+
+==>Sample Input:
+Enter elements in the array:
+10
+15
+20
+25
+30
+
+==>Output:
+Array elements
+10 15 20 25 30
+Array length:5
+ 
