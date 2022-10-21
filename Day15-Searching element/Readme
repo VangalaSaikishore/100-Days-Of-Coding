@@ -1,0 +1,27 @@
+==>Todays problem: Program to print elements in the array and also checks how many times element is repeated. 
+
+==>Solution: 
+Here this problem is simple and I have implemented with simple logic using Arrays concept.
+
+==>TestCases:
+The elements should not float type,String type.
+The elements should not be double type.
+
+==>Sample Input:
+Enter elements in the Array
+15
+10
+15
+14
+15
+
+==>Sample Output:
+Array elements:
+15
+10
+15
+14
+15
+Enter search elements:
+15
+Element found 3times
