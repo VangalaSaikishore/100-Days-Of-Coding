@@ -1,0 +1,26 @@
+==>Todays problem: Program to print Sum of elements in the array and also checks Average of that particular elements 
+
+==>Solution: 
+Here this problem is simple and I have implemented with simple logic using Arrays concept.
+
+==>TestCases:
+The elements should not float type,String type.
+
+==>Sample Input:
+Enter array elements in the array:
+20
+40
+60
+80
+100
+
+==>Output:
+Array elements:
+20
+40
+60
+80
+100
+ Addition 300
+ average 60.0
+ 
