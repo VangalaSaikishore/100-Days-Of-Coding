@@ -1,0 +1,33 @@
+==>Todays problem: Program to Search elements in the array which is completely user based (Linear-Searching)
+
+==>Solution:
+
+Here this problem is simple and I have implemented with simple logic using Arrays concept.
+   
+==>Explanation:
+
+1>First we need enter the array size.
+2>Then we need to enter the elements in the array.
+3>Now we need to enter searching element in the array.
+4>Now it checks the condition whether the element in found in the array or not.
+5>If the element is found then it prints element is found in the array with approriate index value.
+6>If the element is not found then it prints element is not found in the array.
+
+==>TestCases:
+The elements should not float type,String type.
+
+==>Sample Input:
+Enter the length of the array:
+5
+Enter the elements 5 in the array:
+10
+40
+120
+140
+200
+
+==>Output:
+Enter the searching element in the array:140
+140 index found at :3
+Enter the searching element in the array:86
+Element not found in the array
