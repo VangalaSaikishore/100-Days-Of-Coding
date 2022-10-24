@@ -1,0 +1,36 @@
+==>Todays problem: Program to Search elements in the array which is completely user based (Binary-Searching)
+
+==>Solution:
+
+Here this problem is simple and I have implemented with simple logic using Arrays concept.
+   
+==>Explanation:
+1>First we need enter the array size.
+2>Then we need to enter the elements in the array.
+3>Now we need to enter searching element in the array.
+4>Now it checks the condition whether the element in found in the array or not.
+5>If the element is found then it prints element is found in the array with approriate index value.
+6>If the element is not found then it prints element is not found in the array.
+7>The main difference of linear and binary search is :
+==>It is not mandatory to be in sorted order for linear search 
+==>But it is mandatory in binary search that the array should be in sorted order.
+
+==>Sample Input:
+enter size of the Array:
+5
+enter elements in the Array:
+10
+30
+50
+70
+90
+
+==>Output:
+
+enter which element do you want:
+70
+element found in array at index:3
+
+enter which element do you want:
+75
+element not found
