@@ -1,0 +1,34 @@
+==>Todays problem: Program to Sort elements in the array which is completely user based Bubble Sort.
+
+==>Solution:
+
+Here this problem is simple and I have implemented with simple logic using Arrays concept.
+   
+==>Explanation:
+1>First we need enter the array size.
+2>Then we need to enter the elements in the array.
+3>Here the variable i checks the condition from 0 to 3 index values skips the last value.
+4>Then the variable k starts from 0 to index 3
+5>Now we had one condition that the compiler checks arr[k] greater than arr[k+1]
+6>if the condition is true then it goes inside the for loop
+7>And we are considering the temp value to get swapping inn easy way.
+8>Now we will get the elements in sorted order.
+9>Then we will print that particular array which we will get sorted order of elements in the array.
+
+==>Sample Input:
+Enter size of the array
+5
+Enter elements in the Array :
+12
+10
+5
+1
+4
+
+==>Output:
+elements of sorted order:
+1
+4
+5
+10
+12
