@@ -1,0 +1,44 @@
+==>Todays problem: Program to Sort elements in the array which is completely user based Selection Sort.
+
+==>Solution:
+
+Here this problem is simple and I have implemented with simple logic using Arrays concept.
+
+==>Explanation:
+1>First we need enter the array size.
+2>Then we need to enter the elements in the array.
+3>Now the variable i starts from 0 to n-1 then i will be incremented
+4>i will be stored in loc(variable)
+5>Now variable j starts from i+1 to n then j will be incremented
+6>And variable j will be stored in loc(variable)
+7>Now we need to take a temporary varaiable temp that stores arr[i] value
+8>later arr[i] value equals to arr[loc]
+9>Then arr[loc] equals to temp
+10>Now elements will be in sorted order Then we need to print arr[i] values Those are in sorted order.
+
+==>Testcases:
+The elements should not float type,String type or double type.
+
+==>Sample Input:
+Enter size of the Array:
+8
+Enter elements in the Array:
+20
+10
+86
+35
+54
+68
+75
+85
+
+==>Output:
+Sorted order:
+10
+20
+35
+54
+68
+75
+85
+86   
