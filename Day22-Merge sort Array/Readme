@@ -1,0 +1,45 @@
+==>Todays problem: Program to Sort elements in the array which is completely user based Merge Sort.
+
+==>Solution:
+Here this problem is simple and I have implemented with simple logic using Arrays concept.
+
+==>Explanation:
+1>First we need enter the array size.
+2>Then we need to enter the elements in the array.
+3>Now we need to divide array in to two halfs that is left sub array and right sub array
+4>it is basically divide conquer approach 
+5>it will divide the array up to mid value will be 0
+6>Now we need to compare both left and right subarrays elements
+7>if left subarray element is less than right subarray then element is stored in left sub array
+8>Otherwise the element is stored in right subarray
+9>Now at last all the elements will be in  sorted order.
+10>Then we will print the elememts.
+
+==>Test cases:
+The element shoud not be float type,string or double type
+
+==>Sample Input:
+Enter size of the Array:
+8
+Enter elements in the Array:
+54
+14
+18
+86
+76
+51
+28
+99
+
+==>Output:
+Sorted order:
+14
+18
+28
+51
+54
+76
+86
+99
+
+   
