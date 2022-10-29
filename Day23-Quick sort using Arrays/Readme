@@ -1,0 +1,51 @@
+==>Todays problem: Program to Sort elements in the array which is completely user based Quick sort.
+
+==>Solution:
+Here this problem is simple and I have implemented with simple logic using Arrays concept.
+
+==>Explanation:
+1>1>First we need enter the array size.
+2>Then we need to enter the elements in the array.
+3>Now pivot element is considered as last element, Actually pivot element is completely our choice to select any one in the Array
+4>Then variable i starts from (start-1)
+5>The variable j starts from start(0) to end-1 element.
+6>Now it checks the condition that arr[j] is less than pivot
+7>If the condition is false then i value will be incremented
+8>Then temp value stores arr[i],And arr[i] equals to arr[j]
+9>And arr[j] will be equals to temp
+10>Then the compiler comes out from the for loop Then i+1 value will be stored in temp
+11>And arr[i+1] equals to arr[end],Later arr[end] value will be stored in temp
+12>Again we need to check the condition start is less than end
+13>If the condition is true then partition p consists arr,start,end
+14>Now left sub array consists arr,start,p-1 And right sub array consists of arr,p+1,end
+15>Then we need to invoke the elements which is user based 
+16>Finally we need to print the elements those are in sorted order.
+
+==>Testcases:
+The element shoud not be float type,string or double type
+
+==>Sample Input:
+Enter size of the Array:
+8
+Enter elements in the Array:
+25
+10
+86
+75
+85
+59
+63
+71
+
+==>Output:
+Sorted order:
+10
+25
+59
+63
+71
+75
+85
+86
+
+
