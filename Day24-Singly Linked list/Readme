@@ -1,0 +1,76 @@
+==>Todays problem: Program to perform all operations like creation insertion and traversal using singly linked list
+
+==>Solution:
+Here this problem is simple and I have implemented with simple Linked list Concept
+
+==>Explanation:
+1>Firstly we need to create the node then we need take input form the user that Enter the data
+2>if the head is equal to null then head will be equals to new _node
+3>Otherwise we need to take input from user that to enter 1 to insert at begining,and enter 2 to insert at last,and for enter 3 to insert at specific location
+4>Then we need to use switch case for begining new_node.next is equals to head and head will be equals to new node
+5>And for insertion at last we need to store head value in node temp then we need check condition that temp.next is not equal to null
+6>If the condition is true then temp is equals to temp.next
+7>Then temp.next is equals to new_node
+8>Now for specific location we need to take input from the user that Enter position of node to be inserted
+9>Then we need store head value in node temp then we need check condition that variable i value starts from 0 to n-1 and we need to increment the i.
+10>later we need to store temp value is equals to temp.next
+11>new_node.next is equals to temp1.next then new_node is equals to temp1.next
+12>Now Again we need to take user input that do you want to Add more data if yes press1
+13>In the Similar way we need to implement the delete operation but we need to do Slight Modifications
+14>Then for traversing operation if the head is equals to null then we need to print the temp.data
+15>Otherwise we need to check the condition that temp is not equal to null then we need to print the temp.data4
+16>And we need to store the temp is equals to temp.next
+17>Now inside the main method we need to call All operations of creation,deletion,traversal.
+
+==>Testcases:
+The element shoud not be float type,string or double type
+
+==>Sample Input and output:
+
+enter the data:
+12
+Do you want to Add more data.if yes please press:11
+enter the data:
+14
+Enter 1 to insert at begining==>2 to insert at last==>3 to enter at specified location:3
+enter position of node to be inserted:
+1
+Do you want to Add more data.if yes please press:11
+enter the data:
+16
+Enter 1 to insert at begining==>2 to insert at last==>3 to enter at specified location:3
+enter position of node to be inserted:
+2
+Do you want to Add more data.if yes please press:11
+enter the data:
+18
+Enter 1 to insert at begining==>2 to insert at last==>3 to enter at specified location:3
+enter position of node to be inserted:
+3
+Do you want to Add more data.if yes please press:11
+enter the data:
+20
+Enter 1 to insert at begining==>2 to insert at last==>3 to enter at specified location:3
+enter position of node to be inserted:
+4
+Do you want to Add more data.if yes please press:11
+enter the data:
+22
+Enter 1 to insert at begining==>2 to insert at last==>3 to enter at specified location:2
+Do you want to Add more data.if yes please press:11
+enter the data:
+24
+Enter 1 to insert at begining==>2 to insert at last==>3 to enter at specified location:1
+Do you want to Add more data.if yes please press:11
+enter the data:
+10
+Enter 1 to insert at begining==>2 to insert at last==>3 to enter at specified location:4
+Do you want to Add more data.if yes please press:10
+enter 1 delete the item form begining:==>enter 2 delete the item from last:==>enter 3 to delete the item for specific location: 1
+Do you want to Add more data.if yes please press:11
+enter 1 delete the item form begining:==>enter 2 delete the item from last:==>enter 3 to delete the item for specific location: 2
+Do you want to Add more data.if yes please press:11
+enter 1 delete the item form begining:==>enter 2 delete the item from last:==>enter 3 to delete the item for specific location: 3
+enter position of node to be deleted:1
+Do you want to Add more data.if yes please press:10
+12 16 18 20
