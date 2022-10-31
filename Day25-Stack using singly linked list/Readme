@@ -1,0 +1,80 @@
+==>Todays problem: Program to perform all operations like push pop and display using stack singly linked list
+
+==>Solution:
+Here this problem is simple and I have implemented with simple Linked list Concept
+
+==>Explanation:
+1>Firstly we need to create a node then we need to create the push operation.
+2>Now we need to take input from the user that to "enter the data" then if top is equal to null then top is equal to new_node
+3>Otherwise new_noed.next is equal to top then top is equal to new_node
+4>Now we need to create the pop operation in that if top is equal to null then stack will be empty
+5>Otherwise node temp equals to top and temp equals to temp.next
+6>And top is equals to temp 
+7>Then display method we need to create here node temp value is equals to top
+8>And then we will have a condition that temp is not equal to null if the condition is true then we will print the tempdata
+9>Then temp is equals to temp.next
+10>Now inside the main method we need to take input from the user that to press 1 to push,press 2 to pop,press 3 to display And enter your choice
+11>Then we need to use the switch case for push pop and display 
+12>Now At last we need to take input from the user that whether Enter 0 to go to main menu and to exit Succesfully.
+
+==>Testcases:
+The element shoud not be float type,string or double type
+
+==>Sample input and output:
+press1 to push:
+press2 to pop:
+press3 to display:
+enter your choice:
+1
+enter data:
+10
+Enter 0 to go back to main menu:
+enter any key to exit:
+0
+press1 to push:
+press2 to pop:
+press3 to display:
+enter your choice:
+1
+enter data:
+20
+Enter 0 to go back to main menu:
+enter any key to exit:
+0
+press1 to push:
+press2 to pop:
+press3 to display:
+enter your choice:
+1
+enter data:
+30
+Enter 0 to go back to main menu:
+enter any key to exit:
+0
+press1 to push:
+press2 to pop:
+press3 to display:
+enter your choice:
+1
+enter data:
+40
+Enter 0 to go back to main menu:
+enter any key to exit:
+0
+press1 to push:
+press2 to pop:
+press3 to display:
+enter your choice:
+2
+Enter 0 to go back to main menu:
+enter any key to exit:
+0
+press1 to push:
+press2 to pop:
+press3 to display:
+enter your choice:
+3
+
+30
+20
+10
