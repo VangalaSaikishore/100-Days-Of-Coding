@@ -1,0 +1,81 @@
+==>Todays problem: Program to perform all operations like push pop and display using Stack array
+
+==>Solution:
+Here this problem is simple and I have implemented with simple Stack &array concepts
+
+==>Explanation:
+1>Firstly we need to create the array And we should perform the  various Operations of push pop and display
+2>Then we need to check the condition that if top is equal to n-1 or not
+3>If the condition is true then we need to print that stack is overflow
+4>Otherwise we need to take input from the user And we need to store the elements in the array.
+5>Then we need to print Item inserted.
+6>Later we need to create the pop operation then we should check the condition that top is equals to n-1
+7>If the condition is true we need to print stack is underfow 
+8>Otherwise we need to take input from the user And we need to delete the Appropriate element in the array.
+9>Then we should print the element is item is deleted.
+10>Now we need to create the display operation And we should check the condition that topnis equal to -1
+11>If the condition is true Then we need to print stack is empty
+12>Otherwise we need print the elements which are stored in the array After performing all operations 
+13>Now we should take the user input that press 1 to get push operation,2 to get pop operation And 3 to get display operation
+14>After entering the user's input Appropriate operation will be performed accordingly
+15>Finally we need to exit from that operations
+
+==>Testcases:
+The element shoud not be float type,string or double type
+
+==>Sample Input & Output:
+
+press1 to push:
+press2 to pop:
+press3 to display:
+enter your choice:
+1
+enter the data:
+100
+Item inserted:
+Enter 0 to go back to main menu:
+enter any key to exit:
+0
+press1 to push:
+press2 to pop:
+press3 to display:
+enter your choice:
+1
+enter the data:
+200
+Item inserted:
+Enter 0 to go back to main menu:
+enter any key to exit:
+0
+press1 to push:
+press2 to pop:
+press3 to display:
+enter your choice:
+1
+enter the data:
+300
+Item inserted:
+Enter 0 to go back to main menu:
+enter any key to exit:
+0
+press1 to push:
+press2 to pop:
+press3 to display:
+enter your choice:
+2
+item deleted:
+Enter 0 to go back to main menu:
+enter any key to exit:
+0
+press1 to push:
+press2 to pop:
+press3 to display:
+enter your choice:
+3
+items are
+200
+100
+Enter 0 to go back to main menu:
+enter any key to exit:
+1
+exit succesfully
