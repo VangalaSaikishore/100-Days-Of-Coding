@@ -1,0 +1,64 @@
+==>Todays problem: Program to perform all operations like Creation,Deletion and Traversing using Stack array
+
+==>Solution:
+Here this problem is simple and I have implemented with simple Circular Singly linked list concept
+
+==>Explanation:
+1>Firstly we need to create the node then we should create the creation operation 
+2>Now we should take input from the user that "Enter the data" Then we need to check the condition that haed is equal to null or not
+3>If the condition is true then we need assign head is equal to new_node & tail is equal to new_node and new_node.next value equal to head
+4>Otherwise we need to take input from the user that to enter1 at the begining ,2 for last and 3 for specific location
+5>Now we should apply the switch case in the various operations and their appropriate conditions
+6>Here new_node.next is equals to head then head is equal to new_node and tail.next is equal to head these condition is for insertion at begining
+7>Now the condition for insertion at last Here tail.next is equals to new_node then tail is equal to new_node and new_node.next is equal to head
+8>Similary for insertion at specific location we need to take input from the user that to specify the particular position to enter the element 
+9>Now we should perform the for loop that i is equal to zero to p-1 then i will be incremented and then temp value is equal to temp.next
+10>temp.next is equal to new_node Then we should take input from the user whether they are interested to add the data or not if yes "press1".
+11>Now we need to create similary for deletion operation with slight changes accordingly to the code
+12>Then we should create the traversal operation Here we need to check the condition that head is equal to null or not
+13>If the condition is true we should print the temp.data
+14>Otherwise we need to perform the do-while loop that we should print the temp.data then temp is equals to temp.next
+15>Now inside the main method we should call all three operations those are creation,deletion and traversing.
+
+==>Test cases:
+The element shoud not be float type,string or double type
+
+==>Sample Input & output:
+
+enter the data:
+10
+Do you want to Add more data.if yes please press:11
+enter the data:
+20
+Enter 1 to insert at begining==>2 to insert at last==>3 to enter at specified location:2
+Do you want to Add more data.if yes please press:11
+enter the data:
+12
+Enter 1 to insert at begining==>2 to insert at last==>3 to enter at specified location:3
+enter position of node to be inserted:
+1
+Do you want to Add more data.if yes please press:11
+enter the data:
+14
+Enter 1 to insert at begining==>2 to insert at last==>3 to enter at specified location:3
+enter position of node to be inserted:
+2
+Do you want to Add more data.if yes please press:11
+enter the data:
+16
+Enter 1 to insert at begining==>2 to insert at last==>3 to enter at specified location:3
+enter position of node to be inserted:
+3
+Do you want to Add more data.if yes please press:11
+enter the data:
+18
+Enter 1 to insert at begining==>2 to insert at last==>3 to enter at specified location:3
+enter position of node to be inserted:
+4
+Do you want to Add more data.if yes please press:10
+enter 1 delete the item form begining:==>enter 2 delete the item from last:==>enter 3 to delete the item for specific location: 1
+Do you want to Add more data.if yes please press:11
+enter 1 delete the item form begining:==>enter 2 delete the item from last:==>enter 3 to delete the item for specific location: 2
+Do you want to Add more data.if yes please press:10
+12 14 16 18
+
