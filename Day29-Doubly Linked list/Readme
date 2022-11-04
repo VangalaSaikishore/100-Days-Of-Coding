@@ -1,0 +1,62 @@
+==>Todays problem: Program to perform all operations like creation insertion and traversal using Doubly linked list
+
+==>Solution:
+Here this problem is simple and I have implemented with simple Linked list Concept
+
+==>Explanation:
+1>Firstly we need to create the node then we need take input form the user that Enter the data
+2>If the head is equal to null then head will be equals to new _node and tail will be equal to new_node
+3>Otherwise we need to take input from user that to enter 1 to insert at begining,and enter 2 to insert at last,and for enter 3 to insert at specific location
+4>Then we need to use switch case for begining new_node.next is equals to head and head.prev will be equals to new node then head is equal to new_node
+5>Now for insertion at last tail.next is equal to new_node and new_node.prev is equal to tail then tail is equal to new_node
+6>Then for insertion at specific location we need to take input from the user that to specify the position of node to be inserted
+7>And we should perform the for loop,Here i value starts from 0 to p-1 then it will be incremented and inside the loop temp is equal to ptr 
+8>Then ptr is equal to ptr.next and new_node.prev is equal to temp then new_node.next is equal to ptr 
+9>temp.next is equal to new_node and ptr.prev is equal to new_node
+10>In the Similar way we need to implement the delete operation but we need to do Slight Modifications according to the operation & linked list
+11>Then for traversing operation if the head is equals to null then we need to print the linked list is empty
+12>Otherwise we should print the temp.data and temp is equal to temp.next
+13>Now inside the main method we need to call All operations of creation,deletion,traversal.
+
+==>Testcases:
+The element shoud not be float type,string or double type
+
+==>Sample Input and output:
+
+enter the data:
+10
+Do you want to Add more data.if yes please press1-1
+enter the data:
+60
+Enter 1 to insert at begining==>2 to insert at last==>3 to enter at specified location:2
+Do you want to Add more data.if yes please press1-1
+enter the data:
+20
+Enter 1 to insert at begining==>2 to insert at last==>3 to enter at specified location:3
+enter position of node to be inserted:
+1
+Do you want to Add more data.if yes please press1-1
+enter the data:
+30
+Enter 1 to insert at begining==>2 to insert at last==>3 to enter at specified location:3
+enter position of node to be inserted:
+2
+Do you want to Add more data.if yes please press1-1
+enter the data:
+40
+Enter 1 to insert at begining==>2 to insert at last==>3 to enter at specified location:3
+enter position of node to be inserted:
+3
+Do you want to Add more data.if yes please press1-1
+enter the data:
+50
+Enter 1 to insert at begining==>2 to insert at last==>3 to enter at specified location:3
+enter position of node to be inserted:
+4
+Do you want to Add more data.if yes please press1-0
+enter 1 delete the item form begining:==>enter 2 delete the item from last:==>enter 3 to delete the item for specific location: 1
+Do you want to Add more data.if yes please press1-1
+enter 1 delete the item form begining:==>enter 2 delete the item from last:==>enter 3 to delete the item for specific location: 2
+Do you want to Add more data.if yes please press1-0
+Remaining elements in the Linked list:
+20 30 40 50
