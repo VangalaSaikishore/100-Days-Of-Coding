@@ -1,0 +1,86 @@
+==>Todays problem: Program to perform all operations like Enqueue,Dequeue and display using Queue doubly linked list
+
+==>Solution:
+Here this problem is simple and I have implemented with simple Linked list Concept
+
+==>Explanation:
+1>Firstly we need to create a node then we need to create the Enqueue operation.
+2>Now we need to take input from the user that to "enter the data" then if Front is equal to null then front is equal to new_node and Rear is equal to new_node
+3>Otherwise new_node.next is equal to null and new_node.prev will be equal to rear then rear.next is equal to new_node 
+4>And rear is eqaul to new_node, Now we should create dequeue operation 
+5>Inside that we need to check the condition that front is equal to null then if the condition is true then we need to print the underflow
+6>Otherwise front is equal to front.next and front.prev is equal to null
+7>Then finally we need to  create the display operation.
+8>Inside that we  should check the condition that front is equal to null if the condition is true then we need to print queue is empty
+9>Otherwise we need to consider the temp is equal to null then we should check the condition that temp is not equal to null inside the while loop(According to code) 
+10>Now we should print the temp.data then later temp is equal to temp.next
+11>Now inside the main method take input from the user that press1 to enqueue,press2 to dequeue and press3 to display & Enter your choice
+12>Then we need to use the switch case for Enqueue,Dequeue and display operations 
+13>Now At last we need to take input from the user that whether Enter 0 to go to main menu and to exit Succesfully.
+
+==>Testcases:
+The element shoud not be float type,string or double type
+
+==>Sample Input and Output:
+
+Enter 1 to enqueue:
+Enter 2 to dequeue:
+Enter 3 to display:
+Enter your choice:
+1
+Enter data:
+60
+Enter 0 to go to the main menu:
+Enter any key to exist
+0
+Enter 1 to enqueue:
+Enter 2 to dequeue:
+Enter 3 to display:
+Enter your choice:
+1
+Enter data:
+10
+Enter 0 to go to the main menu:
+Enter any key to exist
+0
+Enter 1 to enqueue:
+Enter 2 to dequeue:
+Enter 3 to display:
+Enter your choice:
+1
+Enter data:
+20
+Enter 0 to go to the main menu:
+Enter any key to exist
+0
+Enter 1 to enqueue:
+Enter 2 to dequeue:
+Enter 3 to display:
+Enter your choice:
+1
+Enter data:
+30
+Enter 0 to go to the main menu:
+Enter any key to exist
+0
+Enter 1 to enqueue:
+Enter 2 to dequeue:
+Enter 3 to display:
+Enter your choice:
+2
+Enter 0 to go to the main menu:
+Enter any key to exist
+0
+Enter 1 to enqueue:
+Enter 2 to dequeue:
+Enter 3 to display:
+Enter your choice:
+3
+The remaining elements in the Queue:
+10
+20
+30
+Enter 0 to go to the main menu:
+Enter any key to exist
+2
+Exit is succesfully done!!!
