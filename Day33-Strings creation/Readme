@@ -1,0 +1,21 @@
+
+==>Todays problem: Program to perform how to create the string and object for approriate strings
+
+==>Solution:
+Here this problem is simple and I have implemented with Strings concept
+
+==>Explanation:
+==>STRING:
+==>String in java is a object that represents the sequence of characters kind of word or sentence.
+==>String is a class in Java available in java.lang package create and manipulate the String objects,So we can say that String is a reference type not a primitive type.
+==>We can create a String as a "literal" which is known as intern string or we can create by using "new" keyword as an "Object".
+
+
+==>Testcases:
+The element shoud not be Float type,Integer or Double type
+
+==>Sample Input and output:
+The String created as an String literal is
+Vamshi
+The String created through new keyword i.e., Object is
+Krishna
