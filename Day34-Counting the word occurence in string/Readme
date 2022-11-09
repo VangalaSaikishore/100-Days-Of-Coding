@@ -1,0 +1,22 @@
+
+==>Todays problem: program that will read a line and count all occurences of the word 'the' in a String.
+
+==>Solution:
+Here this problem is simple and I have implemented with Strings concept
+
+==>Explanation:
+1>Here I have first read a paragraph or a line.
+2>And in java,there is a function split("character") that takes a character in a string and for every that character,it split the string seperated by ','.
+3>Then I have stored those splitted strings in a String array.
+4>Then there is one function equals("word") that takes one word as a parameter, With that function I have checked that every element in the array is matched with it or not.
+5>If yes, it will increment the count value.(At first,count is initialised with zero).
+6>If not, proceed for the next element in the string array.
+7>If it readched to the final element in the array,the count value is calculated.
+
+==>Sample Input:
+Enter a line
+Paragraph structure isn’t just for the benefit of readers, it also helps authors organize their thoughts and communicate clearly, 
+Below we explain the different steps of how to write a paragraph, from the paragraph introduction all the way to the conclusion.
+
+==>Output:
+The number of Occurences of "the" are 5
