@@ -1,0 +1,31 @@
+==>Todays problem: program that will check the string whether it is palindrome or not. 
+
+==>Solution:
+Here this problem is simple and I have implemented with Strings concept
+
+==>Explanation:
+1>First we need to take input from the user
+2>Then we should reverse the given string which is provided by the user
+3>Now we should perform the for loop then i is equal to length-1 and i will be greater than or equal to zero and i will be decremented
+4>And reverse equal to rev+str.charAt(i) According to code
+5>Then we need to check the condition that org.equals to rev then we should print it is an palindrome
+6>Otherwise we should print it is not an palindrome
+
+==>Test Cases:
+The element shoud not be Float type,Integer or Double type
+
+==>Sample Input and Output:
+==>1
+enter a string
+madam
+it is an palindrome
+
+==>2
+enter a string
+pavan
+it is not an palindrome
+
+==>3
+enter a string
+nitin
+it is an palindrome
