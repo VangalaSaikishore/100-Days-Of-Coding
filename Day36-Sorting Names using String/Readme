@@ -1,0 +1,28 @@
+==>Todays problem: program that will sort the names according to alphabetical order.
+
+==>Solution:
+Here this problem is simple and I have implemented with Strings concept
+
+==>Explanation:
+1>Firstly we need to take input from the user that to enter the size of array
+2>Now we should create the array with the size of n because this code fully according to user choice
+3>Then we need to take input from the user that to enter the names in small letters [According to code]
+4>Again we should perform a for loop inside the loop we should scan all the array names
+5>Now we have used Array.sort method to get all array names in sorted according to alphabetical order
+6>Finally after getting the names alphabetical order we are printing the names 
+
+==>Test Cases:
+The element shoud not be Float type,Integer or Double type
+
+
+==>Sample Input & Output:
+
+Enter array size
+5
+Enter the names in small letters
+pavan
+harikrishna
+adarsh
+vignesh
+ambati
+[adarsh, ambati, harikrishna, pavan, vignesh]
