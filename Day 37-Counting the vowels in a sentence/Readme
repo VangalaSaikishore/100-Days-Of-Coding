@@ -1,0 +1,25 @@
+==>Todays problem: program that will count the number of vowels in a sentence
+
+==>Solution:
+Here this problem is simple and I have implemented with Strings concept
+
+==>Explanation:
+1>Firstly we need to take input from the user that to enter a line
+2>Now we will assign the intial value that count is equal to 0 Then we should perform the for loop According to code
+3>Here i starts from 0 to str.length and then i will be incremented
+4>Now we should check the condition that whether the ch is equal to 'a' or 'e' or 'i' or 'o' or 'u'
+5>Then we should increment the count 
+6>Finally we should print the count which will print the vowels
+
+==>Test Cases:
+The element shoud not be Float type,Integer or Double type
+
+==>Sample Inputs & Outputs
+
+Enter a line
+Virat kohli is my favourite cricketer in our indian team
+The number of vowels present in the line are 21
+
+Enter a line
+sunrises in the east
+The number of vowels present in the line are 7
