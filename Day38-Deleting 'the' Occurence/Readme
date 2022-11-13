@@ -1,0 +1,24 @@
+==>Todays problem: program that will read a line and delete all occurences of the word 'the' in a String.
+
+==>Solution:
+Here this problem is simple and I have implemented with Strings concept
+
+==>Explanation:
+1>Here I have first read a paragraph or a line.
+2>And in java,there is a function split("character") that takes a character in a string and for every that character,it split the string seperated by ','.
+3>Then we need perform the loop that i is equals to 0 - strarr.length and i will be incremented
+4>Now we should check the condition that strarr[i].equals to 'the', if the condition is true then we should delete that particular word
+5>Then we need to print the remaining words in the given paragraph which is provided by the user.
+
+==>Test Cases:
+The element shoud not be Float type,Integer or Double type
+
+==>Sample Input and Output:
+
+Enter a string
+the sunrises in the east and sun sets in the west
+ sunrises in  east and sun sets in  west
+ 
+ Enter a string
+Below we explain the different steps of how to write a paragraph, from the paragraph introduction all the way to the conclusion.
+Below we explain  different steps of how to write a paragraph, from  paragraph introduction all  way to  conclusion.
