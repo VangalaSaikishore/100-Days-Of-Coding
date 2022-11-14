@@ -1,0 +1,27 @@
+==>Todays problem: program that will Count the succession of two vowels in a given line 
+
+==>Solution:
+Here this problem is simple and I have implemented with Strings concept
+
+==>Explanation:
+1>Firstly we take input paragraph or line from the user then read a paragraph or a particular line which is provided by the user
+2>And in java,there is a function split("character") that takes a character in a string and for every that character,it split the string seperated by ','.
+3>Intially count will be 0 and we need to take two characters because to find the two succesion of vowels 
+4>Here to check the conditions we will get various vowel combinations approximately 20 different combinations [According to code]
+5>If the condition satisfies then we will increment the count value
+6>Then we will print that particular vowel condition specifies the two characters And it will also count the number of vowel successions
+
+==>Test Cases:
+The element shoud not be Float type,Integer or Double type
+
+==>Sample Input and Output:
+
+Enter a line
+Sun rises in the east and sun sets in the west
+ea
+The no of vowel successions are 1
+
+Enter a line
+Work hard success will be yours
+ou
+The no of vowel successions are 1
