@@ -1,0 +1,31 @@
+=>Todays problem: Program that takes first, middle, and other names except the last name by their first letter. 
+
+==>Solution:
+Here this problem is simple and I have implemented with Strings concept
+
+==>Explanation:
+1>Firstly we take input from the user that to enter the string
+2>And in java,there is a function split("character") that takes a character in a string and for every that character,it split the string seperated by ','.
+3>Then we perform the loop that i starts from 0 to n then i will be incremented
+4>Then we need to check the condition that i should be less than n-1 and char value stores the str value
+5>Again we should check the condition that (i==0) if the condition is true then name is equal to name and char[According to code]
+6>Else name is equal to name and stringarr[i]
+7>Finally we need to print the name so that it will print first letters of the first name,middle name then it will print the Last name 
+
+==>Test Cases:
+The element shoud not be Float type,Integer or Double type
+
+==>Sample Input and Output:
+
+Enter the string
+Arepally krishnaprasad Goud
+A k Goud
+
+Enter the string
+Gottipati Venkata Naga Pavan
+G V N Pavan
+
+Enter the string
+Ambati Sahan Goud
+A S Goud
+
