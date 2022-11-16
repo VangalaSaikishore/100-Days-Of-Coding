@@ -1,0 +1,38 @@
+=>Todays problem: Program to create the username and password which is completely user based 
+
+==>Solution:
+Here this problem is simple and I have implemented with Strings concept
+
+==>Explanation:
+1>Firstly we take input from the user that to Enter username and password
+2>Now we should check the condition that Username is not equal to empty 
+3>And inside that we should check one more condition Username length need to be greater than or equal to 6 and it should be less than or equal to 15
+4>If the condition is true we will check the first letter should be in upper case
+5>For these if the condition is false of particular formats like if you enter any special characters or any white spaces
+6>And if you give any paranthesis simply we will print please provide the perfect user name
+7>Again the compilier checks if the user provide below 6 characters, then we will print that password length must be 8 to 256 characters
+8>If the user gives same input and password for these scenario we will check the condition that username.equals(pass)
+9>Then we will print user name and password cannot be same
+10>Otherwise we will print the user name and password is successfully verified
+
+==>Test cases:
+The element shoud not be Float type or Double type
+
+==>Sample Input and Output:
+
+Enter Username
+Vangala
+Enter password
+Saikishore@21
+=========================================================
+Username and password is successfully verified!!!!!
+=========================================================
+
+Enter Username
+Ambati
+Enter password
+Sahangoud@18
+=========================================================
+Username and password is successfully verified!!!!!
+=========================================================
+
