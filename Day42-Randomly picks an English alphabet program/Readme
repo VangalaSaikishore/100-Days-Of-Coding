@@ -1,0 +1,57 @@
+=>Todays problem: Program to perform that Randomly picks an English Alphabet program
+
+==>Solution:
+Here this problem is simple and I have implemented with Strings concept
+
+==>Explanation:
+1>Firstly we should create the object of Random then we need to take all the alphabets And convert to Array
+2>Then we need to take the rand.nextInt method and write A-Z alphabets to convert in to [to.charArray()]
+3>Intially flag will be zero and count is also zero
+4>Now we need to check the condition that flag not equal to one
+5>If the condition is true then we should print Enter a letter in Capital letter from A to Z which is According to code
+6>Now Again we need to check the condition that char is equal to input 
+7>If the condition is true then simply print you have guessed the character with (count+1) times
+8>Here flag will be equal to one. Otherwise we should increment the count value And then flag is equal to zero
+
+==>Test cases:
+The element should not be Integer type,Float type or Double type
+
+==>Sample Input and Output:
+
+==================================================
+Enter a letter in Upper Case from A-Z
+A
+==================================================
+Enter a letter in Upper Case from A-Z
+B
+==================================================
+Enter a letter in Upper Case from A-Z
+C
+==================================================
+Enter a letter in Upper Case from A-Z
+D
+==================================================
+Enter a letter in Upper Case from A-Z
+E
+==================================================
+Enter a letter in Upper Case from A-Z
+F
+==================================================
+Enter a letter in Upper Case from A-Z
+G
+==================================================
+Enter a letter in Upper Case from A-Z
+H
+==================================================
+Enter a letter in Upper Case from A-Z
+I
+==================================================
+Enter a letter in Upper Case from A-Z
+J
+==================================================
+Enter a letter in Upper Case from A-Z
+K
+<====================================================>
+You have guessed the character 11 time
+<====================================================>
+
