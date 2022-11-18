@@ -1,0 +1,41 @@
+=>Todays problem: Program to perform the Income tax operation according to the users amount
+
+==>Solution:
+Here this problem is simple and I have implemented with basic income tax scenario concept
+
+==>Explanation:
+1>Firstly we should create the class of income tax 
+2>Now we need to check the condition that the amount should greater than or equal to 1 and less than or equal to 100000
+3>If the above condition is true then tax is zero
+4>Again we should check one more condition that the amount should greater than or equal to 100001 and less than or equal to 500000
+5>If the condition is true then the tax will be calculated Accordingly like [income-100000]*0.1+[100000*0]==>(According to code)
+6>If the income increases more than 500000 then again we should check the condition
+7>Now if the amount is greater than or equal to 500001 and less than or equal to 1000000
+8>If the condition is true then the tax will be calculated Accordingly like [income-500000]*0.2+[500000*0.1]==>(According to code)
+9>Similarly if the amount is greater than or equal to 1000001 and less than or equal to 4000000
+10>If the condition is true then the tax will be calculated Accordingly like [income-1000000]*0.3+[1000000*0.2]==>(According to code)
+11>Lastly if the tax is more than 4000000 then tax will be calculated as [income-4000000]0.37+[4000000*0.3]==>(Accordingly to code)
+
+
+==>Test Cases:
+The Element should not be Charcter type,Float type or Double type
+
+
+==>Sample Inputs and Outputs:
+
+Enter the yearly income
+50000
+The total tax for the income is 0
+
+Enter the yearly income
+125000
+The total tax for the income is 2500
+
+Enter the yearly income
+200000
+The total tax for the income is 10000
+
+Enter the yearly income
+250000
+The total tax for the income is 15000
+
