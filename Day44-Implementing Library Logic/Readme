@@ -1,0 +1,51 @@
+==>Todays problem: Program to implement the library logic which is completely user based.
+
+==>Solution:
+Here this problem is simple and I have implemented with the  basic library scenario concept
+
+==>Explanation:
+1>Firstly we need to create the a class of library, Inside that we should take the input from the user
+2>That to Enter the book name,Author name,Book number,and Book publisher,book price,And number of copy issued
+3>Now we need to check the condition that (Issue book) whether the users book number is equal to library's book number or not
+4>And the other condition is book name
+5>Here the book number and book name both must & should match with the users input
+6>If the both a bove condition is true then we will print the your book is issued succesfully
+7>Otherwise simply we will print book is not available
+8>Now we need to check one more condition that (Return book) whether the users book number is equal to library's book number or not
+9>And the other condition which is book name
+10>Here the book number and book name both must & should match with the users input
+11>If the both a bove condition is true then we will print the your book is Returned succesfully
+12>Otherwise simply we will print book is not available
+13>Then finally we will print the complete details regarding the book name,Author name,Book number,and Book publisher,book price,And number of copy issued
+14>These are the major points involved in the Library program.
+
+==>Test cases:
+1>Here book name,Author name,publisher name should not be in int,float,double types
+2>And book no,book price & number of copies should not in string,float,double types
+
+==>Sample Input & Output:
+
+============================================================
+Enter Book Name:
+Webtechnology
+Enter Author Name:
+Kalyani
+Enter Book Number:
+18
+Enter Book Pulisher:
+shalini
+Enter Book Price:
+999
+Enter number of copy issued:
+2
+==========================================================
+bookNumber: 18
+bookName: Webtechnology
+book author: Kalyani
+book publisher: shalini
+price: 999.0
+no of copy issued: 2
+=========================================================
+your book issued successfully!
+your book is return successfully!
+============================================================
