@@ -1,0 +1,42 @@
+==>Todays problem: Program to Implement the Employee salary and allowances logic which is completely user based.
+
+==>Solution:
+Here this problem is simple and I have implemented with the basic Employee scenario concept
+
+==>Explanation:
+1>Firstly we need to create a Employee class Inside that we should take the data from the user
+2>And defining the name,salary,da,hra,pf,grossal,netsal in the Employee class
+3>Now we should create the one Employee constructor
+4>Inside that we need to declare the name,salary,da,hra,pf,grossal,netsal [According to code]
+5>Now we need to create one calculate Method then inside that 
+6>da is equal to salary*15.0/100 and hra is equal to salary*10.0/100 then pf is equal to salary/*12.0/100
+7>Similary grossal is equal to salary+da+hra and netsal is equal to grossal-pf
+8>Now we should print Employee name,salary,da,hra,pf,grossal,netsal Inside the display method [According the code]
+9>Then inside the main method we need to input form the user that enter the employee name and salary
+10>Finally we should call the calculate method and display method [According to code]
+
+==>Test Cases:
+1>Here name should not be in int,double,float type
+2>And Salary,da,hra,pf,grossal,netsal should not be int,string,float type
+
+==>Sample Input And Output:
+
+Enter Employee Name: Saikishore
+Enter Salary: 85000
+Employee Name: Saikishore
+Salary: 85000.0
+Dearness Allowance: 12750.0
+House Rent Allowance: 8500.0
+Provident Fund: 10200.0
+Gross Salary: 106250.0
+Net Salary: 96050.0
+
+Enter Employee Name: Chandana
+Enter Salary: 90000
+Employee Name: Chandana
+Salary: 90000.0
+Dearness Allowance: 13500.0
+House Rent Allowance: 9000.0
+Provident Fund: 10800.0
+Gross Salary: 112500.0
+Net Salary: 101700.0
