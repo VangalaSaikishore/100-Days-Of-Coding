@@ -1,0 +1,42 @@
+==>Todays problem: Program to Implement the Student marks record which will calculate the percentage of a particular student
+
+==>Solution:
+Here this problem is simple and I have implemented with the basic percentage formula concept
+
+==>Explanation:
+
+1>Firstly we need to create a Student class Inside that we should define the name,marks,percentage [which is according to code]
+2>Then we take input from the user that to enter the roll no and also enter your name
+3>Now we need to perform the loop inside that we should print the marks of that particular student
+4>Then we should calculate the percentage which is [according to code]
+5>Now we need to create one display method inside that we should print the roll no,name,marks And percentage of all subjects.
+6>Finally Inside the main method we will call the both methods those are readmarks and displaymarks
+
+==>Test Cases:
+1>Here name should not be in int,double,float type
+2>And marks,percentage should not be int,string,float type
+
+==>Sample Input and Output:
+
+Enter Roll_no
+22
+Enter your Name
+pavan
+Enter the 1 subject marks
+54
+Enter the 2 subject marks
+86
+Enter the 3 subject marks
+95
+Enter the 4 subject marks
+85
+Enter the 5 subject marks
+99
+Your rollNo = 22
+Your name = pavan
+1 subject marks = 54
+2 subject marks = 86
+3 subject marks = 95
+4 subject marks = 85
+5 subject marks = 99
+The percentage is = 83.8
