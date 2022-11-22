@@ -1,0 +1,62 @@
+==>Todays problem: Program to Implementation of updating cricketers Individual score and displaying the information of that particular player
+
+==>Solution:
+Here this problem is simple and I have implemented with the basic class and object concept
+
+==>Explanation:
+1>Firstly we need to create a class Inside that we should take the data from the user
+2>And defining the First name,Last name,RunsMade,No_of_fours,No_of_Sixes in the Cricket class
+3>Now we should create the one Method Intial value[According to code]
+4>Then we should take input from the user that to Enter the first name,Last name,run made,no of fours,no of sixes
+5>Again we need to create updated_run [According to code]
+6>Now we should take input from the user to give the updated run
+7>Then we will print the information of that particular cricketer that is first name,last name,no of fours,no of sixes And Updated runs of the player 
+8>Now finally Inside the main method we will call the three methods those are intial_value,updated_run,Info[According to code]
+
+==>Test cases:
+1>Here first name,Last name should not be in int,float,double type
+2>And Runs made,No_of_fours,No_of_sixes should not be in String,float,double type
+
+==>Sample Input And Output:
+==>1
+Enter First_Name
+Sai
+Enter Last_Name
+Kishore
+Enter Run_Made
+91
+Enter No_of_fours
+8
+Enter No_of_sixes
+4
+Enter the update run
+101
+your run update 101
+<<<<======================================>>>>
+===>Name : SaiKishore
+===>No_of_fours: 8
+===>No of sixes: 4
+===>Total Run made 101
+<<<<======================================>>>>
+
+==>2
+Enter First_Name
+Aditya
+Enter Last_Name
+vardhan
+Enter Run_Made
+41
+Enter No_of_fours
+4
+Enter No_of_sixes
+1
+Enter the update run
+51
+your run update 51
+<<<<======================================>>>>
+===>Name : Adityavardhan
+===>No_of_fours: 4
+===>No of sixes: 1
+===>Total Run made 51
+<<<<======================================>>>>
+
