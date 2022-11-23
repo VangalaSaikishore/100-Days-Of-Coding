@@ -1,0 +1,48 @@
+==>Todays problem: Program to Implement the Marathon Scenario which is completely User based.
+
+==>Solution:
+Here this problem is simple and I have implemented with the basic Arrays concept
+
+==>Explanation:
+1>Firstly we need to create a Array for name of the participants which is String array
+2>Then create another array for the time taken of that particular participant
+3>Now we need to create a loop Inside that i starts from 0 to 7 then i will be incremented [According to code]
+4>Then we should check which participant have took the minimum time when compared with the others
+5>Now we need to check the condition that time[i] is greater than min1 
+6>If the condition is true then we will assign min1 equal to time[i] then Again we should check i is equal to 0
+7>If the condition satisfies then name1 is equal to name[i] {//According to code//}
+8>Similary These process repeated for min2 player as shown as min1 player
+9>Finally At last we will print both the winner & runner and we will specify their particular time
+
+==>Test Cases:
+1>Here for String array should not be in int,float,double type 
+2>Time array should be in float,double,String type
+
+==>Sample Input & Output:
+
+<<<===Enter the name and time of participant 1===>>>
+Pavan
+5
+<<<===Enter the name and time of participant 2===>>>
+Chandu
+3
+<<<===Enter the name and time of participant 3===>>>
+Madhu
+8
+<<<===Enter the name and time of participant 4===>>>
+Nithin
+12
+<<<===Enter the name and time of participant 5===>>>
+Naresh
+9
+<<<===Enter the name and time of participant 6===>>>
+Abhilash
+7
+<<<===Enter the name and time of participant 7===>>>
+Kishore
+2
+===========================================================================
+<<<<========The winner is Kishore has taken 2 minutes======>>>>
+<<<<========The Runner is Chandu has taken 3 minutes======>>>>
+===========================================================================
+
