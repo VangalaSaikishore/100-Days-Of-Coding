@@ -1,0 +1,52 @@
+==>Todays problem: Program to Implement the printing reverse pyrmaid pattern logic which is completely User based.
+
+==>Solution:
+Here this problem is simple and I have implemented with the basic Arrays & printing pattern concept.
+
+==>Explanation:
+1>Here first take input of row size.
+2>Then for every row run a loop1 i from 0 to rows-1 and that is outer loop.
+3>Then run an inner loop2 j from j<=i to 2 for empty space inside loop1 and print the empty space.[According to code]
+4>After loop2 completion,run loop3 from 0 to rows-1-i for number of columns and print * in its body.
+
+==>Test Cases:
+1>The Given Input should not be in float,String or Double type
+2>And Input should not be in negative numbers
+
+==>Sample Inputs & Outputs:
+
+Enter the number of rows:
+12
+ * * * * * * * * * * * *
+  * * * * * * * * * * *
+   * * * * * * * * * *
+    * * * * * * * * *
+     * * * * * * * *
+      * * * * * * *
+       * * * * * *
+        * * * * *
+         * * * *
+          * * *
+           * *
+            *
+
+Enter the number of rows:
+8
+ * * * * * * * *
+  * * * * * * *
+   * * * * * *
+    * * * * *
+     * * * *
+      * * *
+       * *
+        *
+        
+Enter the number of rows:
+5
+ * * * * *
+  * * * *
+   * * *
+    * *
+     *
+        
+            
