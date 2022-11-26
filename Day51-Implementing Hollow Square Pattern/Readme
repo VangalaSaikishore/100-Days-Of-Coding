@@ -1,0 +1,55 @@
+==>Todays problem: Program to Implement the Hollow Square Pattern Logic.
+
+==>Solution:
+Here this problem is simple and I have implemented with the basic Arrays & printing pattern concept.
+
+==>Explanation:
+1>Here first intialize the n value according the user
+2>Now inside the loop i starts from one to n then i will be incremented
+3>Similarly j starts from one to n and j will get incremented [According to code]
+4>Now we should check the condition that i==1 || j==1 || i==n || j==n
+5>Here If the condition is true then we will print *
+6>Otherwise Inside the else condition we will print Empty Space and we will exit from the loop
+
+==>Test Cases:
+1>The Given Intialization should not be in float,String or Double type
+2>And Input should not be in negative numbers
+
+==>Sample Inputs & Outputs:
+//Here n=20
+
+* * * * * * * * * * * * * * * * * * * *
+*                                     *
+*                                     *
+*                                     *
+*                                     *
+*                                     *
+*                                     *
+*                                     *
+*                                     *
+*                                     *
+*                                     *
+*                                     *
+*                                     *
+*                                     *
+*                                     *
+*                                     *
+*                                     *
+*                                     *
+*                                     *
+* * * * * * * * * * * * * * * * * * * *
+
+//Here n=12
+
+* * * * * * * * * * * *
+*                     *
+*                     *
+*                     *
+*                     *
+*                     *
+*                     *
+*                     *
+*                     *
+*                     *
+*                     *
+* * * * * * * * * * * *
