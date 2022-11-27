@@ -1,0 +1,57 @@
+==>Todays problem: A program which will print a pyramid of "numbers" 's of height "n" and print the sum of all number's in the pyramid.
+
+==>Solution:
+Here this problem is simple and I have implemented with the basic Looping & printing pattern concept.
+
+==>Explanation:
+1>Here first we need to take Input from the user that, to "Enter the number of Rows"
+2>Now inside the loop i starts from one to n then i will be incremented
+3>Similarly j starts from one to n and j will get incremented [According to code j is space]
+4>Then we will print an empty space Later we will perform one more loop that is (while)
+5>Inside that there will be condition that [k<=2*i-1] Then we will print the k value.
+6>Then Sum will be equal to sum+k [According to code] then k will be incremented.
+7>At Last we will print the sum of numbers inside the pattern According to user Input choice
+
+==>Test Cases:
+1>The Given User Input should not be in float,String or Double type
+2>And Input should not be in negative numbers
+
+==>Sample Input And Outputs:
+
+Enter the no of rows:
+8
+              1
+            1 2 3
+          1 2 3 4 5
+        1 2 3 4 5 6 7
+      1 2 3 4 5 6 7 8 9
+    1 2 3 4 5 6 7 8 9 10 11
+  1 2 3 4 5 6 7 8 9 10 11 12 13
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+<<<=============================>>>
+Sum of the numbers: 372
+<<<=============================>>>
+
+
+Enter the no of rows:
+6
+          1
+        1 2 3
+      1 2 3 4 5
+    1 2 3 4 5 6 7
+  1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9 10 11
+<<<=============================>>>
+Sum of the numbers: 161
+<<<=============================>>>
+
+
+Enter the no of rows:
+4
+      1
+    1 2 3
+  1 2 3 4 5
+1 2 3 4 5 6 7
+<<<=============================>>>
+Sum of the numbers: 50
+<<<=============================>>>
