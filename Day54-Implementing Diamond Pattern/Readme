@@ -1,0 +1,48 @@
+==>Todays problem: A program To Implement the Diamond "*" 's of height "l" of odd length. If input "l" is even then your program will print Invalid line number!!!!!!  
+
+==>Solution:
+Here this problem is simple and I have implemented with the basic Looping & printing pattern concept.
+
+==>Explanation:
+1>Here firstly we need to take Input from the User to enter any number Then we will intialize upper line and Lower line as 0. 
+2>Now we should check the condition that (l%2!=0) if the condition is true then we will Assign upper line is equal to (l/2)+1 and ll is equal to (l-ul)
+3>Then we will perform the for loop here i starts from 1 to upper line and i will get incremented
+4>Inside that again we will perform one more for loop here s starts from 1 to upper line-1 and s wil get Incremented
+5>Then we will prin the Empty space to get spaces in between the * symbols
+6>Now similarly we will perform one more for loop here j starts from 1 to i and j will get Incremented
+7>And we will print the * inside the loop
+8>The same above process will follow for Lower Half According to code
+9>At Last we will perform one else condition for even number inputs
+10>Suppose If the User gives the Even Input then we will print Invalid line number.
+
+==>Test Cases:
+1>The Given Should not be float,String,Double Type
+2>And Input should not be in negative numbers
+
+==>Sample Input and Output:
+
+<<<====Enter any number:====>>>
+17
+        *
+       * *
+      * * *
+     * * * *
+    * * * * *
+   * * * * * *
+  * * * * * * *
+ * * * * * * * *
+* * * * * * * * *
+ * * * * * * * *
+  * * * * * * *
+   * * * * * *
+    * * * * *
+     * * * *
+      * * *
+       * *
+        *
+
+
+
+<<<====Enter any number:====>>>
+16
+<<<<=====!!!!!!Invalid line number!!!!!!=====>>>>
