@@ -1,0 +1,36 @@
+==>Todays problem: A program To Implement the K-Shape Printing Pattern Using Integers
+
+==>Solution:
+Here This problem is simple and I have implemented with the basic Looping & printing pattern concept.
+
+==>Explanation:
+1>Firstly we should initialize the variables i,j and declare rows is equal to 9
+2>Now we should perform the for loop inside that i is equal to rows and less than or equals to 1 then i will get decremented
+3>Again we should perform another for loop here j starts from 1 and greater than eqaul to i then j will get incremented
+4>Now we need to print the j and to get space in between the integers we should print one more empty print statement
+5>The above conditions are for upper half pattern 
+6>Similarly we will perform the same optimized conditions for lower half pattern[According to code]
+
+==>TestCases:
+1>1>The Given Input declartion Should not be float,String,Double Type
+2>And Input should not be in negative numbers
+
+==>Sample Input && Output:
+
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8
+1 2 3 4 5 6 7
+1 2 3 4 5 6
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+1 2 3 4 5 6
+1 2 3 4 5 6 7
+1 2 3 4 5 6 7 8
+1 2 3 4 5 6 7 8 9
