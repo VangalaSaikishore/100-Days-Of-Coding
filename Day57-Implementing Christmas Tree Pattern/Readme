@@ -1,0 +1,54 @@
+==>Todays problem: A program To Implement the Christmas Tree Printing Pattern with [* pattern]
+
+==>Solution:
+Here This problem is simple and I have implemented with the basic Looping & printing pattern concept.
+
+==>Explanation:
+1>Firstly we should create a class then Inside the main method we need to declare height and width
+2>According to user's choice we need to declare the size.
+3>Now we should perform the for-loop for height,here variable 'a' starts from to height and a will be incremented
+4>Similarly for width we will perform same loop then we need to perform another for-loop for space
+5>Now we should print statement for empty space in between the '*'
+6>To print the * pattern we need to perform the for loop here k starts 1 to greater than equal to i then k will get incremented
+7>Now we need to perform print statement for empty space
+8>The above conditions will be implement the upper part of christmas tree pattern
+9>Now we should perform similar loops to implement the branch of christmas tree printing pattern[According to code]
+
+==>Test Cases:
+1>Here the height & width should not be string,float,double type.
+2>And we should not assign the height and width of negative numbers
+
+==>Sample Input and Output:
+
+<<<<<==========Implementing Christmas Tree Printing Pattern==========>>>>>
+                         *
+                        * *
+                       * * *
+                      * * * *
+                     * * * * *
+                       * * *
+                      * * * *
+                     * * * * *
+                    * * * * * *
+                   * * * * * * *
+                     * * * * *
+                    * * * * * *
+                   * * * * * * *
+                  * * * * * * * *
+                 * * * * * * * * *
+                   * * * * * * *
+                  * * * * * * * *
+                 * * * * * * * * *
+                * * * * * * * * * *
+               * * * * * * * * * * *
+                 * * * * * * * * *
+                * * * * * * * * * *
+               * * * * * * * * * * *
+              * * * * * * * * * * * *
+             * * * * * * * * * * * * *
+                      * * * *
+                      * * * *
+                      * * * *
+                      * * * *
+                      
+                      
