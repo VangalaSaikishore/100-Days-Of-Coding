@@ -1,0 +1,59 @@
+==>Todays problem: A program To Implement The Left Pascal's Triangle Pattern which is completely User Based.
+
+==>Solution:
+Here This problem is simple and I have implemented with the basic Looping & printing pattern concept.
+
+==>Explanation:
+1>Firstly we should create a class then Inside the main method we need to invoke the rows
+2>Now we should perform the loop and here 'i' starts from 1 to rows then 'i' will get incremented.
+3>Similarly we should perform one more loop and here 'j' starts from i to greater than rows then j will get incremented
+4>Then we should perform the print statement which will provide the empty spaces in between the pattern
+5>Now to print stars for each row we need to perform one more loop here k strats from 1 and greater than or equal to i then k will be incremented 
+6>The above conditions we perform the Upper side of our appropriate pattern.
+7>Similarly to get the Lower side pattern Now we need to perform again three for loops and optimized conditions[Refer Code]
+8>These are the conditions to implement the Left Pascals Triangle Pattern.
+
+==>Test Cases:
+1>Here the given input should not be string,float,double type.
+2>And Similarly The Input Should not be negative numbers.
+
+==>Sample Inputs And Outputs:
+
+Enter the number of rows:
+10
+         *
+        **
+       ***
+      ****
+     *****
+    ******
+   *******
+  ********
+ *********
+**********
+ *********
+  ********
+   *******
+    ******
+     *****
+      ****
+       ***
+        **
+         *
+
+Enter the number of rows:
+6
+     *
+    **
+   ***
+  ****
+ *****
+******
+ *****
+  ****
+   ***
+    **
+     *
+     
+     
+         
