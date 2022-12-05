@@ -1,0 +1,42 @@
+==>Todays problem: A program To Implement The Single Level Inheritance Which is Completely User Based 
+
+==>Solution:
+Here This problem is simple and I have implemented with the Basic Area of Rectangle Concept which is [length * Breadth]
+
+==>Some Basic information regarding the concept:
+1>Inheritance is a mechanism wherein a new class is derived from an existing class. 
+2>In Java, classes may inherit or acquire the properties and methods of other classes. 
+3>A class derived from another class is called a subclass, 
+4>whereas the class from which a subclass is derived is called a superclass.
+
+-->SINGLE LEVEL INHERITANCE:
+1>Single inheritance can be defined as a derived class to inherit the basic methods (data members and variables) and behavior from a superclass.
+2>It’s a basic is-a relationship concept exists here. 
+3>Basically, java only uses a single inheritance as a subclass cannot extend more superclass.
+
+==>Explanation:
+1>At first class Shape consists of two integer type data members which are length and breadth 
+2>And this is also a Super or Parent class.
+3>Then another class Rectangle is a Subclass consists of one data member and one function
+4>Data Member is area to store integer value and a function CalculateArea()
+
+==>Test Cases:
+1>Here the input length,breadth should not be an string,float,double type
+2>Similarly the input should not be in negative numbers
+
+==>Sample Input And Outputs:
+
+<<<====Enter Length====>>>
+12
+<<<===Enter Breadth===>>>
+4
+<<<====The Area of rectangle of length "12" and breadth "4" is "48"====>>>
+
+<<<====Enter Length====>>>
+18
+<<<===Enter Breadth===>>>
+8
+<<<====The Area of rectangle of length "18" and breadth "8" is "144"====>>>
+
+
+
