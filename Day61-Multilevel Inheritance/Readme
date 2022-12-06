@@ -1,0 +1,40 @@
+==>Todays problem: A program To Implement The Multi Level Inheritance Which is Completely User Based 
+
+==>Solution:
+Here This problem is simple and I have implemented with the Basic Student Marks & Total Concept.
+
+==>Some Basic information regarding the concept:
+
+==>MULTILEVEL INHERITANCE :
+The multi-level inheritance includes the involvement of atleast two or more than two classes.One class inherits the features from a parent class and the newly created
+sub-class becomes the base class for another class.
+
+==>Explanation:
+Here I have used Multilevel Inheritance concept to implement the logic.
+Here the first class "Student" is a parent class and it contains two instance variables "sno" and "sname" which stores some data about student.
+Then I have created another class "Test" which inherits "Student" class and contains three instance variables which stores marks of three subjects.
+At Last I have created another class "Result" which inherits "Test" class.Then "Result" class can use "Student" and "Test" class properties also.
+
+==>Test Cases:
+1>Here The Input student reg_no should not be in float and double type
+2>Similarly The input of the marks of various subjects should not be in float,string,double type
+
+==>Sample Inputs And Outputs:
+
+<<<<====Enter Student details:====>>>>
+Student Registration Number
+22MCA10086
+<<<====Student Name====>>>
+Chandu
+<<<====Enter marks of three subjects====>>>
+<<==Science==>>
+91
+<<==Maths==>>
+95
+<<==English==>>
+98
+<<<<=====The student details are===''==>>>>
+<<<<<====Registration Number: 22MCA10086====>>>>>
+<<<<====Name: Chandu====>>>>
+<<<<====Total Marks: 284.0====>>>>
+
