@@ -1,0 +1,35 @@
+==>Todays problem: A program To Implement Interface in java Calculating the 20% tax on Employee Income and displaying the details of Employee including the 
+                   tax to be paid by the Employee.
+ 
+==>Solution:
+Here This problem is simple and Here I have Implemented with Java Interface concept to get 100% security for the data.
+
+
+==>Some Basic information regarding the concept:
+1>The interface in Java is a mechanism to achieve abstraction. There can be only abstract methods in the Java interface, not method body.
+2>It is used to achieve abstraction and multiple inheritance in Java.
+3>In other words, you can say that interfaces can have abstract methods and variables. It cannot have a method body.
+
+
+==>INTERFACE IN JAVA :
+1>An interface in Java is a blueprint of a class. It has static constants and abstract methods.
+
+
+==>Explanation:
+1>Firstly we should to create the interface of employee class then assigned EmpId,Emp name,Emp Salary
+2>Now we need to create another class Information here iit is implementing the Employee class[According to code]
+3>Then we should performe the income tax (logic) to calculate the particular salary
+4>Later we need to create the display method Inside that we should print the appropriate details of that particular Employee
+5>Lastly Inside the main method we should call the get.data & display methods[According to code]
+
+==>Test Cases:
+1>Here the Input data type must be compatible to the declaration data type.
+
+==>Sample Inputs and Outputs:
+
+<<<====Employee Details are====>>>>
+<<<====Employee Id: 105119====>>>
+<<<====Employee Name: Saikishore====>>>
+<<<====Employee Salary: 85000.0====>>>
+<<<====Total Tax to be paid for the income is: 17000.0====>>>
+
