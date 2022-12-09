@@ -1,0 +1,49 @@
+==>Todays problem: A program To Implement the Hierarchial Inheritance in java based on Initialising the values to the Account holder 
+                And withdraw some money from Savings account and calculate the rate of interest on amount in Fixed account,
+                then display the results.
+
+==>Solution:
+Here This problem is simple and Here I have Implemented with Hierarchial Inheritance Concept.
+
+==>Some Basic information regarding the concept:
+**HIERARCHIAL INHERITANCE :
+We already know that "Hierarchical inheritance" occurs when multiple child classes inherit the methods and properties of the same parent class.
+This simply means we have only one superclass and multiple sub-classes in hierarchical inheritance in Java.
+
+==>Explanation:
+1>Here we need to use Java Hierarchial Inheritance concept to implement the logic.
+2>At first we have created one class "Account" and it contains account number and name of the account holder.And this is the Super class.
+Then we should create one another class "Savings" which inherits the "Account" class.It has one method "withdraw()" to debit money from the customer account.
+4>Later we need to create one another class "Fixed" inherits the "Account" class and it has one method "interest()" to calculate the interest on money in Fixed Account.
+
+==>Test Cases:
+1>Here Account no,Saving Account,Fixed Account and Withdrawn should not be float,string,double type
+2>Account Holder Name should not be int,float,double data type.
+
+==>Sample Input and Output:
+
+<<<====Enter Account number====>>>
+105119
+<<<====Enter Name of Account holder====>>>
+Saikishore
+<<<<=====Enter the Balance in Savings Account=====>>>
+5000
+<<<<=====Enter the balance in Fixed Account=====>>>>>
+10000
+
+<<<<=====Enter the amount to be withdrawn=====>>>>
+2000
+
+<<<<<=======After withdrawn, the account details are======>>>>>
+-------------------------------------------
+105119 Saikishore 3000.0
+-------------------------------------------
+
+
+<<<<====The interest on 10000.0 is 1200.0====>>>>
+<<<<=====The account details after adding interset about 6 rate of interest for 2 years of time is====>>>>
+-----------------------------------
+105119 Saikishore 11200.0
+-----------------------------------
+
+
