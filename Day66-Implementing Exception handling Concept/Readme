@@ -1,0 +1,48 @@
+==>Todays problem: Program to Implement the nested try-catch block using Exception Handling Concept
+
+==>Solution:
+Here This problem is simple and Here I have Implemented with nested try and catch block Concept.
+
+==>Some Basic information regarding the concept:
+1>An exception (or exceptional event) is a problem that arises during the execution of a program.
+2>An exception can occur for many different reasons. Following are some scenarios where an exception occurs
+3>A user has entered an invalid data.
+4> A file that needs to be opened cannot be found.
+5>A network connection has been lost in the middle of communications or the JVM has run out of Memory
+
+==>Explanation:
+1>In the program Firstly, we have two try blocks enclosed in the main try block.
+2>Both the inner try blocks have a code that raises Arithmetic Exception.
+3>But we have provided a matching catch block only for the first block and not for the second try block.
+4>Hence the second block exits the exception to the main try block and then handles it.
+5>These we can see in our appropriate output.
+
+==>TestCases:
+1>There should not be syntactical errors in the code.
+2>We should follow general syntax:
+try  
+		{  
+    			//try_block 1;  
+    			try  
+    			{  
+      				//try_block 2;
+    			}  
+    			catch(Exception e)  
+    			{  
+				//exception handler code
+    			}  
+		}	  	
+		catch(Exception e)  
+		{  
+			//exception handler code
+		}
+
+
+==>Sample Input And Output:
+
+<<<===Try Block1===>>>
+<<<===Block1 Exception: e1===>>>
+****Try Block2****
+<<<<====Main Block Arithmetic Exception====>>>>
+<<<<====Code after Nested Try Block====>>>>
+
