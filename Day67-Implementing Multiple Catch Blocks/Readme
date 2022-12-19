@@ -1,0 +1,25 @@
+==>Todays problem: Program to Implement the Multiple Catch Block using Exception Handling Concept
+
+==>Solution:
+Here This problem is simple and Here I have Implemented with Multiple Catch Block Concept.
+
+==>Some Basic information regarding the concept:
+1>An exception (or exceptional event) is a problem that arises during the execution of a program.
+2>An exception can occur for many different reasons. Following are some scenarios where an exception occurs
+3>A user has entered an invalid data.
+4> In a Java program, at any instance of time, only one exception can occur. Also, at any point, only one catch block is executed.
+5>The multiple catch blocks should be ordered in such a way that the catch block for most specific exceptions should come first and then the general.
+
+==>Explanation:
+1>In the above program Firstly an ArithmeticException that is caught in the first catch block is raised.
+2>Then If this catch block was not specified, then the exception would have go to the generalized catch block.
+
+==>Test Cases:
+1>There should not be syntactical errors in the code.
+2>slightly modify the above program so that the try block raises two exceptions.
+
+==>Sample Input And Output:
+
+try Block:: Begin
+Arithmetic Exception :: Divide by zero!!
+rest of the code
