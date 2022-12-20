@@ -1,0 +1,42 @@
+====>Todays Problem: Implementing the java program using Finally Block by Exception Handling
+
+====>Solution:
+Here This problem is simple and Here I have Implemented with Finally Block Concept.
+
+====>Explanation:
+1>If the try block does not raise any exception then the finally block will be executed after the try block. 
+2>If there is an exception in the try block then control will pass to the catch block first and then the finally block.
+3>An exception occurring in finally block behaves in the same way as any other exception. 
+4>Even if the try block contains a return statement or branching statements like break and continue, then the finally block will still be executed.
+
+====>The general syntax of the finally block is as follows:
+
+try {
+</em><em>                         //code that might raise exception
+</em><em>            }catch {   
+</em><em>                       //code that handles exception
+</em><em>            }finally {
+</em><em>                          //mandatory code to be executed
+</em><em>            }
+
+
+====>Test Cases:
+1>There should not be syntactical errors in the code.
+**Though finally block is always executed, there are certain situations or cases in which it doesn’t execute.
+2>When the thread is dead.
+3>When the System.exit() method is used.
+4>When an exception occurs in the finally block.
+
+
+====>Sample Input And Output:
+
+<<<<=====::Try Block::======>>>>
+<<<<<======Result=====>>>>:25
+<<<<======:: Finally Block::=====>>>>
+<<<====No Exception::finally block executed===>>>
+!!!!!rest of the code...!!!!
+
+
+
+
+
