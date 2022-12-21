@@ -1,0 +1,32 @@
+====>Todays Problem: Implementing The Java Program using Throw Keyword Block By Throwing Unchecked Exception
+
+====>Solution:
+Here This problem is simple and Here I have Implemented by using java throw keyword Concept.
+
+====>Basic Information Regarding the concept:
+* The Java throw keyword is used to throw an exception explicitly.
+** We can throw either checked or unchekedexception in java by throw keyword. 
+*** The throw keyword is mainly used to throw custom exception.
+
+====>Explanation:
+1>In The Program Firstly, we have created the validate method that takes integer value as a parameter.
+2>If the age is less than 18, we are throwing the ArithmeticException 
+3>Otherwise it prints a person is eligible to vote & Rest of Code!!! 
+
+====>Test Cases:
+1>Here we should not pass age as float,double,or string type
+2>There should not be any syntactical errors in the code, follow the syntax appropriately
+
+*****  throw new exception_class("error message");  ******
+
+====>Sample Input And Output:
+1>
+Exception in thread "main" java.lang.ArithmeticException: <<<<====Person is not eligible to vote====>>>>
+        at UncheckedExceptionThrow.validate(UncheckedExceptionThrow.java:9)
+        at UncheckedExceptionThrow.main(UncheckedExceptionThrow.java:20)
+        
+2>
+<<<===Person is eligible to vote!!===>>>
+<<<==rest of the code!!!===>>>
+
+
