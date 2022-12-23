@@ -1,0 +1,27 @@
+====>Todays Problem: Implementing The Java Program using Throw Keyword Block By Throwing User Defined Exception
+
+====>Solution:
+Here This problem is simple and Here I have Implemented by using java throw keyword Concept.
+
+====>Basic Information Regarding the concept:
+* If you are creating your own Exception that is known as custom exception or user-defined exception. 
+** Java custom exceptions are used to customize the exception according to user need.
+*** By the help of custom exception, you can have your own exception and message.
+**** Business logic exceptions: These are the exceptions related to business logic and workflow. 
+
+====>Explanation:
+1>To catch and provide specific treatment to a subset of existing Java exceptions.
+2>It is useful for the application users or the developers to understand the exact problem.
+3>Firstly the class represents user-defined exception then we are calling the constructor of parent Exception.
+4>Then inside the main method we are throwing an object of user defined exception.
+5>Later we are printing the message from MyException object. 
+
+=====>Test Cases:
+1>There should not be any syntactical errors in the code, follow the syntax appropriately.
+
+
+====>Sample Input And Output:
+
+<<<<====Caught the exception====>>>>
+<<<=====This is user-defined exception====>>
+
