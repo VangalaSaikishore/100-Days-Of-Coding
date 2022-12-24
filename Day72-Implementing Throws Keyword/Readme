@@ -1,0 +1,30 @@
+====>Todays Problem: Implementing The Java Program using Throws Keyword By Using Exception Handling
+
+====>Solution:
+Here This problem is simple and Here I have Implemented by using java throws keyword Concept.
+
+====>Basic Information Regarding the concept:
+1>The Java throws keyword is used to declare an exception. 
+2>It gives an information to the programmer that there may occur an exception so it is better for the programmer to provide the exception 
+  handling code so that normal flow can be maintained.
+3>Exception Handling is mainly used to handle the checked exceptions. 
+4>If there occurs any unchecked exception such as NullPointerException, it is programmers fault that he is not performing check up before the code being used.
+
+====>Explanation:
+1>The throws keyword indicates what exception type may be thrown by a method.
+2>There are many exception types available in Java: ArithmeticException, ClassNotFoundException, ArrayIndexOutOfBoundsException, SecurityException, etc.
+3>Used to indicate what exception type may be thrown by a method
+4>Can declare multiple exceptions
+
+====>Test Cases:
+1>There should not be any syntactical errors in the code, follow the syntax appropriately.
+
+***throws is followed by a class
+***And used with the method signature
+
+
+====>Sample Input And Output:
+
+<<<<====exception handled=====>>>>
+<<<<====normal flow!!!=====>>>>
+
