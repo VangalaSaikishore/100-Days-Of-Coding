@@ -1,0 +1,26 @@
+====>Todays Problem: Implementing The Java Program using thread class By Extending The Thread Class 
+
+====>Solution:
+Here This problem is simple and Here I have Implemented by using java threads Concept.
+
+====>Basic Information Regarding the concept:
+*A Thread is a very light-weighted process, or we can say the smallest part of the process
+**That allows a program to operate more efficiently by running multiple tasks simultaneously.
+***A thread is created either by "creating or implementing" the Runnable Interface or by extending the Thread class.
+****These are the only two ways through which we can create a thread.
+
+==>Explanation:
+1>Firstly Inside the run method we are performing the sum of two numbers 
+2>The method is used for starting a thread that we have newly created. 
+3>It starts a new thread with a new callstack. After executing the start() method, the thread changes the state from New to Runnable. 
+4>It executes the run() method when the thread gets the correct time to execute it.
+5>Inside the main method we are calling the start method to execute the run() method of the Thread class.
+
+====>Test Cases:
+1>Here the variables a,b should not be float,string,double type
+
+====>Sample Input and Output:
+
+<<<===Thread started running!!!===>>>
+<<<<=====Sum of two numbers is :22====>>>>
+
