@@ -1,0 +1,42 @@
+====>Todays problem: Implementing The Java Program using to perform Thread Synchronization
+
+====>Solution: Here This problem is simple and Here I have Implemented by using java Synchronization Concept. 
+
+====>Basic Information Regarding The Concept:
+* In multithreading, there is the asynchronous behavior of the programs. 
+** If one thread is writing some data and another thread which is reading data at the same time
+*** might create inconsistency in the application.
+**** When there is a need to access the shared resources by two or more threads, then synchronization approach is utilized.
+***** Java has provided synchronized methods to implement synchronized behavior.
+
+====>Explanation:
+1>Firstly we are creating the a class Table Inside we performing the Synchronized Method
+2>Then performing a loop And we are implementing the try catch blocks using the exception handling
+3>And we are Assigning the thread.sleep(400) then similarly we are creating another Class called MyThread1
+4>Which is Extending the thread class, with the help of "this" keyword we are printing the table 
+5>Similarly we are assigning the same process to another thread class called MyThread2
+6>Now Inside the main method we are creating the objects for table class and for other two thread classes
+7>Then with the help of start method we are calling the two threads t1,t2 Appropriately.
+
+====>Test Cases:
+1>Make sure follow the Syntax Appropriately
+*******************************************
+Synchronized(object)
+{ 
+ //Block of statements to be synchronized
+}
+*******************************************
+
+====>Sample Input And Output:
+
+5
+10
+15
+20
+25
+100
+200
+300
+400
+500
+
