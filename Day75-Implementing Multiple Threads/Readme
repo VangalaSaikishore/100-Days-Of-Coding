@@ -1,0 +1,27 @@
+====>Todays problem: Implementing The Java Program using to perform single task by multiple threads
+
+====>Solution: Here This problem is simple and Here I have Implemented by using java Multithreading Concept. 
+
+====>Basic Information Regarding The Concept:
+
+* Multithreading in Java is a process of executing multiple threads simultaneously.
+** A thread is a lightweight sub-process, the smallest unit of processing. 
+*** Multiprocessing and multithreading, both are used to achieve multitasking.
+**** Java Multithreading is mostly used in games, animation, etc.
+
+====>Explanation:
+1>Multitasking is a process of executing multiple tasks simultaneously.
+2>If you have to perform a single task by many threads, have only one run() method.
+3>Inside the main method we are creating three objects of multitasking
+4>And we are calling with the start method 
+
+===>Test Cases:
+1>Threads are independent,so it doesn't affect other threads if an exception occurs in a single thread
+
+===>Sample Input And Output:
+
+<<==task one==>>
+<<==task one==>>
+<<==task one==>>
+<<==task one==>>
+<<==task one==>>
