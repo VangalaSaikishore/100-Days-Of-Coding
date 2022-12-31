@@ -1,0 +1,22 @@
+====>Todays problem: Implementing The Java Program using to perform multiple tasks by multiple threads (multitasking in multithreading)
+
+====>Solution: Here This problem is simple and Here I have Implemented by using java Multithreading Concept. 
+
+====>Basic Information Regarding The Concept:
+* Multitasking is a process of executing multiple tasks simultaneously. 
+** We use multitasking to utilize the CPU. Multitasking can be achieved in two ways:
+*** Process-based Multitasking (Multiprocessing)
+**** Thread-based Multitasking (Multithreading)
+
+====>Explanation:
+
+1>Firstly Class Simple1 extending the thread class
+2>Now Inside the run method we are printing the statement task one 
+3>Similarly Another class Simple2 extending the thread class
+4>Inside the run method we are printing the statement task two
+5>Now Inside the main method we are creating the two classes objects And calling with start method
+
+====>Sample Input And Output:
+
+task two
+task one
