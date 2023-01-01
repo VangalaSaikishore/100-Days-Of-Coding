@@ -1,0 +1,39 @@
+====>Todays problem: Implementing The Java Program using to perform Multiple task by multiple threads by performing scenario 
+
+====>Solution: Here This problem is simple and Here I have Implemented by using java Multithreading Concept. 
+
+====>Basic Information Regarding The Concept:
+
+* Multithreading in Java is a process of executing multiple threads simultaneously.
+** A thread is a lightweight sub-process, the smallest unit of processing. 
+*** Multiprocessing and multithreading, both are used to achieve multitasking.
+**** Java Multithreading is mostly used in games, animation, etc.
+
+====>Explantion:
+
+1>Firstly we have created the saves class And we are assigning the n value to i With the help of the constructor.
+2>Inside the increment method we are incrementing the n value And we are printing the value of n.
+3>Then we are displaying the value of n
+4>Now we are performing the multithreading operation here we are performing the loop in try block
+5>And Exception is caught in Catch block which is performing inside the Increment Class
+6>Similarly we are creating another display class which is performing the similar operations like Increment class
+7>Now Inside the main method we are asking user to enter the number
+8>Then we are creating three objects for three different classes then we should call by using the start method. 
+
+===>Test Cases:
+1>Here the number should not be in string,float,or double type
+
+===>Sample Input And Output:
+
+Enter a number
+10
+n value incremented by 1  and it becomes 11
+The n value is 10
+n value incremented by 1  and it becomes 12
+The n value is 12
+n value incremented by 1  and it becomes 13
+The n value is 13
+n value incremented by 1  and it becomes 14
+The n value is 14
+n value incremented by 1  and it becomes 15
+The n value is 15
