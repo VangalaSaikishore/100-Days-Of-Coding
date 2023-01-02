@@ -1,0 +1,52 @@
+====>Todays problem: Implementing The Java Program using to perform Multiple task by multiple threads by performing scenario 
+                     Write a multithreading program by using runnable interface in which run() method should perform the following task
+                     *Display a time stamp
+                     **Display greeting message for 10 times (such as hi, hello, good morning)
+                     ***Wait for 1000 miliseconds
+
+====>Solution: Here This problem is simple and Here I have Implemented by using java Multithreading Concept. 
+
+====>Basic Information Regarding The Concept:
+
+* Multithreading in Java is a process of executing multiple threads simultaneously.
+** A thread is a lightweight sub-process, the smallest unit of processing. 
+*** Multiprocessing and multithreading, both are used to achieve multitasking.
+**** Java Multithreading is mostly used in games, animation, etc.
+
+====>Explantion:
+1>Firstly we have created a class which implements the runnable interface
+2>Then we are performing the run method and try block Inside that we are performing the for loop then creating the object for date
+3>And performing the thread sleep as 1000 Now we are catching the exception then we are printing the exception
+4>Now we are creating the another class message which is implements the runnable interface
+5>Similarly performing the same run method and looping but the major change is here we are printing the message 'Hello'
+6>Later performing same catching the exception and printing the exception
+7>Now Inside the main method we are creating the object for timestamp class and similarly for message class
+8>Then we are performing start method with the help of threads t1 &t2.
+
+====>Test Cases:
+1>Follow the syntax appropriately and perform the looping according to scenario
+2>For Timestamp scenarios we have import java.util.Date
+
+====>Sample Input And Output:
+
+1 Hello
+The time is Mon Jan 02 10:16:19 PST 2023
+2 Hello
+The time is Mon Jan 02 10:16:20 PST 2023
+3 Hello
+The time is Mon Jan 02 10:16:21 PST 2023
+4 Hello
+The time is Mon Jan 02 10:16:22 PST 2023
+5 Hello
+The time is Mon Jan 02 10:16:23 PST 2023
+6 Hello
+The time is Mon Jan 02 10:16:24 PST 2023
+7 Hello
+The time is Mon Jan 02 10:16:25 PST 2023
+8 Hello
+The time is Mon Jan 02 10:16:26 PST 2023
+9 Hello
+The time is Mon Jan 02 10:16:27 PST 2023
+10 Hello
+The time is Mon Jan 02 10:16:28 PST 2023
+
