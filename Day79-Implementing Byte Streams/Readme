@@ -1,0 +1,48 @@
+====>Todays problem: Implementing The Java Program of File Input & Output Streams Using Byte Streams
+
+
+====>Solution: Here This problem is simple and Here I have Implemented by using Byte Streams Concept. 
+
+====>Basic Information Regarding The Concept:
+
+*Java.io Package:
+**This package provides for system input and output through data streams, serialization and the file system.
+ ***Java defines two types of streams
+ ===>1. Byte Stream:It provides a convenient means for handling input and output of byte.
+ ===>2. Character Stream: It provides a convenient menas for handling input and output of characters.
+
+**Byte Stream Classes:
+Byte stream is defined by using two abstract class at the top of hierarchy
+==> InputStream
+==> OutputStream
+
+====>Explanation:
+1>Firstly we need to create a class then we have created a method called fileoperation1()
+2>Inside we are performing te input stream here we can copy the file data from one txt file to another file
+3>Then we are performing the while loop with condition if it satisfies that particular condition
+4>We should print the data of that file And At Last We need to close that file
+5>Similarly Perform Same similar conditions for File Output Stream which fileoperation2() and fileoperation3()
+6>Inside fileoperation3() we can change image data from one file to another file
+7>Lastly Inside the main method we need to create a object then we should call the fileoperation methods
+
+====>Test Cases:
+1>Follow the syntax appropriately and copy the path According to Requirement.
+
+====>Sample Input And Output:
+*FileOperation1(Output)
+Implementing the byte streams:
+Connection created:
+i love java
+Data retreived:
+
+**FileOperation2(Output)
+Connection created:
+data written
+
+***FileOperation3(Output)
+Connection created:
+data copied
+
+
+
+
