@@ -1,0 +1,44 @@
+====>Todays problem: Implementing The Java Program of File Reader & Writer Using Character Streams
+
+
+====>Solution: Here This problem is simple and Here I have Implemented by using Character Streams Concept. 
+
+====>Basic Information Regarding The Concept:
+
+*Buffered Input Stream Concept:
+
+1>Java BufferedInputStream is used to read information from . It internally uses buffer mechanism to make the performance fast.
+2>When the bytes from the stream are skipped or read, the internal buffer automatically refilled from the contained input stream, many bytes at a time.
+3> When a BufferedInputStream is created, an internal buffer is created.
+
+**Buffered Output Stream Concept
+
+*Buffered Output Stream Concept
+1>Java BufferedOutputStream is used for buffering an output stream. It internally uses buffer to store data. 
+2>It adds more efficiency than to write data directly into a stream
+3>Let's see the syntax for adding the buffer in an OutputStream:
+ OutputStream os= new BufferedOutputStream(new FileOutputStream("D:\\IO Package\\testout.txt"));  
+ 
+====>Explanation:
+1>Firstly we need to create a class then we have created a method called fileoperation1()
+2>Inside we are performing te Buffered file input stream here we can copy the file data from one txt file to another file
+3>Then we are performing the while loop with condition if it satisfies that particular condition
+4>We should print the data of that file And At Last We need to close that file
+5>Later we need to perform the Buffered output stream with the help of Buffered Reader & Writer operations
+6>Then we need to close buffered output stream file,reader & writer file 
+7>Now Inside the main method we should call be the fileoperation1 method.
+
+====>Test Cases:
+1>Follow the syntax appropriately and copy the path According to Requirement.
+OutputStream os= new BufferedOutputStream(new FileOutputStream("D:\\IO Package\\testout.txt"));
+
+====>Sample Input And Output:
+
+==============================================================
+Implementing the Buffered streams:
+Connection created:
+i love java
+Data retreived:
+==============================================================
+
+
