@@ -1,0 +1,43 @@
+====>Todays problem: Implementing The Java Program of Byte Array Input Using Byte Array Input Streams And Available Method
+
+====>Solution: Here This problem is simple and Here I have Implemented by using Byte Array Streams Concept. 
+
+====>Basic Information Regarding The Concept:
+
+*Java.io Package:
+**This package provides for system input and output through data streams, serialization and the file system.
+***The ByteArrayInputStream class of the java.io package can be used to read an array of input data (in bytes).
+****It extends the InputStream abstract class.
+
+==>In ByteArrayInputStream, the input stream is created using the array of bytes. 
+==>It includes an internal array to store data of that particular byte array.
+
+==>Use of Available Method:
+
+1>We have used the available() method to check the number of available bytes in the input stream.
+2>We have then used the read() method 2 times to read 2 bytes from the input stream.
+3>Now, after reading the 2 bytes, we have checked the available bytes. This time the available bytes decreased by 2.
+
+
+===>Explanation:
+1>Firstly we need to create a class then we have created a Byte Array with some elements.
+2>Now Inside Main method & Try block create the object for ByteArrayInputStream.
+3>Then we need to print the statement that Available bytes in the beginning.
+4>Now we shoud Apply read method which reads 2 bytes from the input stream.
+5>Again we need to print the statement that Available bytes At the end.
+6>Then At Last Exception is caught by catch block and we need perform e.getStackTrace Method.
+
+===>Test Cases:
+1>Follow the syntax appropriately 
+// Creates a ByteArrayInputStream that reads entire array
+ByteArrayInputStream input = new ByteArrayInputStream(byte[] arr);
+
+2>In order to create a byte array input stream, we must import the java.io.ByteArrayInputStream package first. 
+3>Once we import the package, here is how we can create an input stream.
+
+===>Sample Input And Output:
+
+<<<==Available bytes at the beginning==>>>: 4
+<<<===Available bytes at the end===>>>: 2
+
+
