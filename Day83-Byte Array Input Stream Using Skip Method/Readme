@@ -1,0 +1,41 @@
+====>Todays problem: Implementing The Java Program of Byte Array Input Using Byte Array Input Streams And Skip Method
+
+====>Solution: Here This problem is simple and Here I have Implemented by using Byte Array Streams Concept. 
+
+====>Basic Information Regarding The Concept:
+
+*Java.io Package:
+**This package provides for system input and output through data streams, serialization and the file system.
+***The ByteArrayInputStream class of the java.io package can be used to read an array of input data (in bytes).
+****It extends the InputStream abstract class.
+
+==>In ByteArrayInputStream, the input stream is created using the array of bytes. 
+==>It includes an internal array to store data of that particular byte array.
+
+==>Use of Skip Method:
+
+*To discard and skip the specified number of bytes, we can use the skip() method.
+**The skip() method is a built-in method of the Java. io. ByteArrayInputStream which skips arg bytes in the input stream. 
+***A fewer bytes is skipped if the stream has reached towards the end.
+
+====>Explanation:
+1>Firstly we need to create a class then we have created a Byte Array with some elements.
+2>Now Inside Main method & Try block create the object for ByteArrayInputStream.
+3>Then we need to print the statement that Input Stream After Skipping 2 Bytes
+4>Now data will get read with the help of input.read method then we should perform while loop with condition data!=-1
+5>If the condition is true then we need to print the particular data
+6>And Again data will get read with the help of input.read method then we should perform the close() method.
+7>At Last Exception is caught by catch block and we need perform e.getStackTrace Method.
+
+====>Test Cases:
+1>Follow the syntax appropriately
+// Creates a ByteArrayInputStream that reads a portion of array
+ByteArrayInputStream input = new ByteArrayInputStream(byte[] arr, int start, int length);
+
+
+====>Sample Input And Output:
+
+<<<===Input stream after skipping 2 bytes===>>>: 3  4
+
+
+
