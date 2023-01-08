@@ -1,0 +1,36 @@
+====>Todays problem: Implementing The Java Program of Byte Array Input Using Byte Array Output Streams And write Method
+
+====>Solution: Here This problem is simple and Here I have Implemented by using Byte Array Streams Concept. 
+
+====>Basic Information Regarding The Concept:
+
+*The ByteArrayOutputStream class of the java.io package can be used to write an array of output data (in bytes).
+**It extends the OutputStream abstract class In order to create a byte array output stream, we must import the java.io.ByteArrayOutputStream package first.
+
+==>Use of Write Method:
+
+1>write(int byte) - writes the specified byte to the output stream
+2>write(byte[] array) - writes the bytes from the specified array to the output stream
+3>write(byte[] arr, int start, int length) - writes the number of bytes equal to length to the output stream from an array starting from the position start
+4>writeTo(ByteArrayOutputStream out1) - writes the entire data of the current output stream to the specified output stream
+
+
+===>Explanation:
+
+1>Firstly we need to create a class then we have created a String data with some words.
+2>Now Inside Main method & Try block create the object for ByteArrayOutputStream.
+3>Then we need to print the statement that Stream data bytes in the beginning.
+4>Now we shoud Apply read method which retrives  from the Output stream.
+5>Again we need to print the statement that Stream bytes At the end.
+6>Then At Last Exception is caught by catch block and we need perform e.getStackTrace Method.
+
+====>Test Cases:
+1>Follow the syntax appropriately 
+// Creates a ByteArrayOutputStream with default size
+ByteArrayOutputStream out = new ByteArrayOutputStream();
+
+====>Sample Input And Output:
+
+Implementing Byte Array Output Stream
+Output stream: This is a line of text inside the string.
+
