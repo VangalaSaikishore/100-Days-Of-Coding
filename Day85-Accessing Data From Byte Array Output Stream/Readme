@@ -1,0 +1,33 @@
+====>Todays problem: Implementing The Java Program of Byte Array Input Using Byte Array Output Streams And Close Method
+
+====>Solution: Here This problem is simple and Here I have Implemented by using Byte Array Streams Concept. 
+
+====>Basic Information Regarding The Concept:
+
+*The ByteArrayOutputStream class of the java.io package can be used to write an array of output data (in bytes).
+**It extends the OutputStream abstract class In order to create a byte array output stream, we must import the java.io.ByteArrayOutputStream package first.
+***To write the data to the output stream, we have used the write() method.
+****The getBytes() method used in the program converts a string into an array of bytes.
+
+==>Use of Close Method:
+
+1>To close the output stream, we can use the close() method.
+2>However, the close() method has no effect in ByteArrayOutputStream class.
+3>We can use the methods of this class even after the close() method is called.
+
+====>Explanation:
+1>Firstly we need to create a class then we have created a String data with some words.
+2>Now Inside Main method & Try block create the object for ByteArrayOutputStream.
+3>Then to access the data toByteArray() - returns the array present inside the output stream
+4>toString() - returns the entire data of the output stream in string form 
+5>Now At Last Exception is caught by catch block and we need perform e.getStackTrace Method.
+
+====>Test Cases:
+1>Follow the syntax appropriately 
+// Creates a ByteArrayOutputStream with default size
+ByteArrayOutputStream out = new ByteArrayOutputStream();
+
+====>Sample Input And Output:
+
+Data using toByteArray(): This is data.
+Data using toString(): This is data.
