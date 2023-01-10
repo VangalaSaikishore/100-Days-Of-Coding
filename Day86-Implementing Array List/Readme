@@ -1,0 +1,39 @@
+====>Todays problem: Implementing The Java Program of Array List Using Collection Frameworks
+
+====>Solution: Here This problem is simple and Here I have Implemented by using Collection Frameworks Concept. 
+
+====>Basic Information Regarding The Concept:
+
+*In Java, we use the ArrayList class to implement the functionality of resizable-arrays.
+**It implements the List interface of the collections framework.
+***The Java collections framework provides a set of interfaces and classes to implement various data structures and algorithms.
+****The Collection interface is the root interface of the collections framework hierarchy.
+*****Java does not provide direct implementations of the Collection interface but provides implementations of its subinterfaces like List, Set, and Queue
+
+==>Java ArrayList Vs Array:
+<1>In Java, we need to declare the size of an array before we can use it. Once the size of an array is declared, it's hard to change it.
+<2>To handle this issue, we can use the ArrayList class. It allows us to create resizable arrays.
+<3>Unlike arrays, arraylists can automatically adjust their capacity when we add or remove elements from them. Hence, arraylists are also known as dynamic arrays.
+
+====>Explanation:
+1>Firstly create a class And Inside the main method we need to create a collection for array
+2>Now we need to add the elements in the list According to the code
+3>Here In these program we have added languages called java,css,c++ Initially.
+4>Then we have printed the list accordingly, Later we have changed the element from the array list
+5>In the index-2 instead of c++ we have modified javascript language.
+6>Similarly Then we have removed the css language from index-1.
+
+====>Test Cases:
+1>Follow the syntax appropriately 
+ArrayList<String> languages = new ArrayList<>();
+
+====>Sample Input And Output:
+
+ArrayList: [Java, CSS, C++]
+Modified ArrayList: [Java, CSS, JavaScript]
+==========================================
+Removing the CSS Language
+Updated ArrayList: [Java, JavaScript]
+Removed Element: CSS
+============================================
+
