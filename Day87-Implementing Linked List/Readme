@@ -1,0 +1,47 @@
+====>Todays problem: Implementing The Java Program of Linked List Using Collection Frameworks
+
+====>Solution: Here This problem is simple and Here I have Implemented by using Collection Frameworks Concept. 
+
+====>Basic Information Regarding The Concept:
+
+*Java LinkedList class uses a doubly linked list to store the elements. 
+**It provides a linked-list data structure. It inherits the AbstractList class and implements List and Deque interfaces.
+
+===>The important points about Java LinkedList are:
+
+<*>     Java LinkedList class can contain duplicate elements.
+<**>    Java LinkedList class maintains insertion order.
+<***>   Java LinkedList class is non synchronized.
+<****>  In Java LinkedList class, manipulation is fast because no shifting needs to occur.
+<*****> Java LinkedList class can be used as a list, stack or queue.
+
+====>Explanation:
+1>Firstly create a class And Inside the main method we need to create a collection for array.
+2>Now we need to add the elements in the list According to the code
+3>Here In these program we have added Names called Ravi,vijay,Ravi,Ajay,Pavan,Aditya,Krishna Initially.
+4>Then we have printed the list accordingly, Later we have changed the element from the Linked list
+5>Now we have removed vijay from the list here we had preformed remove operation
+6>Later we have printed the list after preforming the remove operation.
+
+====>Test Cases:
+1>Follow the syntax appropriately 
+ LinkedList<String> ll=new LinkedList<String>();
+ 
+====>Sample Input And Output:
+
+Ravi
+vijay
+Ravi
+Ajay
+pavan
+Aditya
+Krishna
+<<==Removing vijay from LL==>>
+<<==After removing the vijay==>>[Ravi, Ravi, Ajay, pavan, Aditya, Krishna]
+
+ 
+ 
+
+
+
+
