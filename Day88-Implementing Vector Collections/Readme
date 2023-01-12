@@ -1,0 +1,69 @@
+====>Todays problem: Implementing The Java Program of Vector List Using Collection Frameworks
+
+====>Solution: Here This problem is simple and Here I have Implemented by using Collection Frameworks Concept. 
+
+====>Basic Information Regarding The Concept:
+
+*The Vector class is an implementation of the List interface that allows us to create resizable-arrays similar to the ArrayList class.
+
+==>Java Vector vs. ArrayList
+1>In Java, both ArrayList and Vector implements the List interface and provides the same functionalities. However, there exist some differences between them.
+2>The Vector class synchronizes each individual operation. This means whenever we want to perform some operation on vectors, 
+3>the Vector class automatically applies a lock to that operation.
+4>However, in array lists, methods are not synchronized. Instead, it uses the Collections.synchronizedList() method that synchronizes the list as a whole.
+
+====>Explanation:
+VECTOR IN COLLECTIONS PACKAGE :
+1>The Vector class implements a growable array of objects. Vectors fall in legacy classes, but now it is fully compatible with collections. 
+2>It is found in java.util package and implement the List interface, so we can use all the methods of the List interface 
+3>Here we have performed all the cases accordingly like a linked list.
+
+====>Test Cases:
+1>Follow the syntax appropriately 
+ Vector<Integer> vec_tor = new Vector<Integer>();
+ 
+====>Sample Input And Outputs:
+
+1.Add 2.AddIndex 3.RemovePosition 4.Update 5.Display 6.Exit
+Enter Your Choice
+1
+Enter value to be added
+10
+Value added successfully
+1.Add 2.AddIndex 3.RemovePosition 4.Update 5.Display 6.Exit
+Enter Your Choice
+2
+Enter value to be added
+0
+Enter Position to be inserted
+1
+Value inserted at position successfully
+1.Add 2.AddIndex 3.RemovePosition 4.Update 5.Display 6.Exit
+Enter Your Choice
+1
+Enter value to be added
+20
+Value added successfully
+1.Add 2.AddIndex 3.RemovePosition 4.Update 5.Display 6.Exit
+Enter Your Choice
+2
+Enter value to be added
+1
+Enter Position to be inserted
+2
+Value inserted at position successfully
+1.Add 2.AddIndex 3.RemovePosition 4.Update 5.Display 6.Exit
+Enter Your Choice
+3
+Enter position to be deleted
+2
+Value deleted from Vector successfully
+1.Add 2.AddIndex 3.RemovePosition 4.Update 5.Display 6.Exit
+Enter Your Choice
+5
+The elements in Vector are [10, 1, 20]
+1.Add 2.AddIndex 3.RemovePosition 4.Update 5.Display 6.Exit
+Enter Your Choice
+6
+
+
