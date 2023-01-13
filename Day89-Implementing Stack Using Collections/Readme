@@ -1,0 +1,83 @@
+====>Todays problem: Implementing The Java Program of Stack Using Collection Frameworks
+
+====>Solution: Here This problem is simple and Here I have Implemented by using Collection Frameworks Concept. 
+
+====>Basic Information Regarding The Concept:
+
+*The Java collections framework has a class named Stack that provides the functionality of the stack data structure.
+**The Stack class extends the Vector class.
+
+==>Stack Methods:
+1>Since Stack extends the Vector class, it inherits all the methods Vector. To learn about different Vector methods, visit Java Vector Class.
+2>Besides these methods, the Stack class includes 5 more methods that distinguish it from Vector.
+
+*push() Method
+To add an element to the top of the stack, we use the push()
+*pop() Method
+To remove an element from the top of the stack, we use the pop()
+*peek() Method
+The peek() method returns an object from the top of the stack.
+*search() Method
+To search an element in the stack, we use the search() method. It returns the position of the element from the top of the stack
+
+====>Explanation:
+1>Java Collection framework provides a Stack class that models and implements a Stack data structure. The class is based on the basic principle of last-in-first-out. 
+2>In addition to the basic push and pop operations, the class provides three more functions of empty and peek. 
+3>The class can also be said to extend Vector and treats the class as a stack with the four mentioned functions. 
+4>The class can also be referred to as the subclass of Vector.
+
+====>Test Cases:
+1>Follow the syntax appropriately 
+*Stack<Type> stacks = new Stack<>();
+
+// Create Integer type stack
+Stack<Integer> stacks = new Stack<>();
+
+// Create String type stack
+Stack<String> stacks = new Stack<>();
+
+====>Sample Input And Output:
+
+1.Push 2.Pop 3.Peek 4.Display 5.Exit
+Enter your choice
+1
+Enter element 
+10
+Element pushed into stack successfully
+1.Push 2.Pop 3.Peek 4.Display 5.Exit
+Enter your choice
+1
+Enter element 
+20
+Element pushed into stack successfully
+1.Push 2.Pop 3.Peek 4.Display 5.Exit
+Enter your choice
+1
+Enter element 
+30
+Element pushed into stack successfully1.Push 2.Pop 3.Peek 4.Display 5.Exit
+Enter your choice
+1
+Enter element 40
+Element pushed into stack successfully
+1.Push 2.Pop 3.Peek 4.Display 5.Exit
+Enter your choice
+1
+Enter element 50
+Element pushed into stack successfully
+1.Push 2.Pop 3.Peek 4.Display 5.Exit
+Enter your choice
+2
+Element popped from the stack successfully
+1.Push 2.Pop 3.Peek 4.Display 5.Exit
+Enter your choice
+3
+The top most element is 401.Push 2.Pop 3.Peek 4.Display 5.Exit
+Enter your choice4
+The elements are [10, 20, 30, 40]
+1.Push 2.Pop 3.Peek 4.Display 5.Exit
+Enter your choice
+5
+Exit............
+
+
