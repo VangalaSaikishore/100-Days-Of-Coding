@@ -1,0 +1,84 @@
+====>Todays problem: Implementing The Java Program of Queue Using Collection Frameworks
+
+====>Solution: Here This problem is simple and Here I have Implemented by using Collection Frameworks Concept. 
+
+====>Basic Information Regarding The Concept:
+
+*The Queue interface of the Java collections framework provides the functionality of the queue data structure. It extends the Collection interface.
+**Classes that Implement Queue
+==>Since the Queue is an interface, we cannot provide the direct implementation of it.
+
+***In order to use the functionalities of Queue, we need to use classes that implement it:
+
+1>ArrayDeque
+2>LinkedList
+3>PriorityQueue
+
+====>Explanation:
+1>The Queue interface is present in java.util package and extends the Collection interface is used to hold the elements about to be processed 
+ in FIFO(First In First Out) order. 
+2>It is an ordered list of objects with its use limited to inserting elements at the end of the list and deleting elements from the start of the list, 
+ (i.e.), it follows the FIFO or the First-In-First-Out principle.
+ 
+Methods :
+1)offer(element) : it adds element to the Queue Object at the end
+
+2)poll() :It returns true if it deletes the front side element. If the Queue is empty, it returns null
+
+3)peek() : To print the head element of the queue 
+
+=====>Test Cases:
+
+1>Follow the syntax appropriately 
+public interface Queue<E> extends Collection<E>  
+
+====>Sample Input And Output:
+
+1.Add(Offer) 2.Remove(Poll) 3.Peek 4.Display 5.Exit
+Enter your choice
+1
+Enter element
+10
+Element offered into Queue successfully
+1.Add(Offer) 2.Remove(Poll) 3.Peek 4.Display 5.Exit
+Enter your choice
+1
+Enter element
+20
+Element offered into Queue successfully
+1.Add(Offer) 2.Remove(Poll) 3.Peek 4.Display 5.Exit
+Enter your choice
+1
+Enter element
+30
+Element offered into Queue successfully
+1.Add(Offer) 2.Remove(Poll) 3.Peek 4.Display 5.Exit
+Enter your choice
+1
+Enter element
+40
+Element offered into Queue successfully
+1.Add(Offer) 2.Remove(Poll) 3.Peek 4.Display 5.Exit
+Enter your choice
+1
+Enter element
+50
+Element offered into Queue successfully
+1.Add(Offer) 2.Remove(Poll) 3.Peek 4.Display 5.Exit
+Enter your choice
+2
+Element polled from the Queue successfully
+1.Add(Offer) 2.Remove(Poll) 3.Peek 4.Display 5.Exit
+Enter your choice
+3
+The front most element is 20
+1.Add(Offer) 2.Remove(Poll) 3.Peek 4.Display 5.Exit
+Enter your choice
+4
+The elements are [20, 40, 30, 50]
+1.Add(Offer) 2.Remove(Poll) 3.Peek 4.Display 5.Exit
+Enter your choice
+5
+Exit............
+
+
