@@ -1,0 +1,82 @@
+====>Todays problem: Implementing The Java Program of Tree Set Using Collection Frameworks
+
+====>Solution: Here This problem is simple and Here I have Implemented by using Collection Frameworks Concept. 
+
+====>Basic Information Regarding The Concept:
+
+*Java TreeSet class implements the Set interface that uses a tree for storage. 
+**It inherits AbstractSet class and implements the NavigableSet interface. The objects of the TreeSet class are stored in ascending order
+***class contains unique elements only like HashSet.
+****Java TreeSet class access and retrieval times are quiet fast.It class doesn't allow null element.
+*****it is non synchronized.Java TreeSet class maintains ascending order.
+
+====>Explanation:
+TreeSet :
+TreeSet is one of the most important implementations of the SortedSet interface in Java that uses a Tree for storage. 
+The ordering of the elements is maintained by a set using their natural ordering whether or not an explicit comparator is provided. 
+This must be consistent with equals if it is to correctly implement the Set interface.
+
+NavigableSet :
+NavigableSet represents a navigable set in Java Collection Framework. The NavigableSet interface inherits from the SortedSet interface. 
+It behaves like a SortedSet with the exception that we have navigation methods available in addition to the sorting mechanisms of the SortedSet. 
+
+====>Test Cases:
+1>Follow the syntax appropriately
+
+TreeSet treeSet = new TreeSet();   
+Set syncrSet = Collections.synchronziedSet(treeSet); 
+
+====>Sample Input And Output:
+
+1.Add 2.Remove 3.pollFirst 4.pollLast 5.Display 6.Exit
+Enter your choice
+1
+Enter element
+10
+Element added successfully
+1.Add 2.Remove 3.pollFirst 4.pollLast 5.Display 6.Exit
+Enter your choice
+1
+Enter element
+20
+Element added successfully
+1.Add 2.Remove 3.pollFirst 4.pollLast 5.Display 6.Exit
+Enter your choice
+1
+Enter element
+30
+Element added successfully
+1.Add 2.Remove 3.pollFirst 4.pollLast 5.Display 6.Exit
+Enter your choice
+1
+Enter element
+40
+Element added successfully
+1.Add 2.Remove 3.pollFirst 4.pollLast 5.Display 6.Exit
+Enter your choice
+1
+Enter element
+50
+Element added successfully
+1.Add 2.Remove 3.pollFirst 4.pollLast 5.Display 6.Exit
+Enter your choice
+2
+Enter element
+50
+Element deleted from the Tree successfully
+1.Add 2.Remove 3.pollFirst 4.pollLast 5.Display 6.Exit
+Enter your choice
+3
+First element deleted from Tree is
+1.Add 2.Remove 3.pollFirst 4.pollLast 5.Display 6.Exit
+Enter your choice
+4
+Last element deleted from Tree is
+1.Add 2.Remove 3.pollFirst 4.pollLast 5.Display 6.Exit
+Enter your choice
+5
+The elements are [20, 30]
+1.Add 2.Remove 3.pollFirst 4.pollLast 5.Display 6.Exit
+Enter your choice
+6
+Exit.....
