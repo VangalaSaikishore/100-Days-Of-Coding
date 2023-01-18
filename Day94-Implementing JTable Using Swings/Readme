@@ -1,0 +1,20 @@
+====>Todays problem: Implementing The Java Program of JTable Using Java Swings
+
+====>Solution: Here This problem is simple and Here I have Implemented by using Swings Concept. 
+
+====>Basic Information Regarding The Concept:
+
+*The JTable class is a part of Java Swing Package and is generally used to display or edit two-dimensional data that is having both rows and columns.
+**It is similar to a spreadsheet. This arranges data in a tabular form.
+
+====>Explanation:
+*The JTable class is used to display data in tabular form. It is composed of rows and columns.
+
+==>Functions in JTable: 
+
+1>addColumn(TableColumn []column) : adds a column at the end of the JTable.
+2>clearSelection() : Selects all the selected rows and columns.
+3>editCellAt(int row, int col) : edits the intersecting cell of the column number col and row number row programmatically, 
+  if the given indices are valid and the corresponding cell is editable.
+4>setValueAt(Object value, int row, int col) : Sets the cell value as ‘value’ for the position row, col in the JTable.
+
