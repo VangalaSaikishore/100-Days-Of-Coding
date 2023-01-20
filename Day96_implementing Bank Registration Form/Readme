@@ -1,0 +1,35 @@
+====>Todays problem: Implementing The Java Program to Bank Registration form Using Event Handling
+
+====>Solution: Here This problem is simple and Here I have Implemented by using Event Handling Concept. 
+
+====>Basic Information Regarding The Concept:
+
+1>In Java, an event is an object which specifies the change of state in the source. 
+2>It is generated whenever an action takes place like a mouse button is clicked or text is modified. 
+3>Java’s AWT (Abstract Window Toolkit)  is responsible for communicating these actions between the program and the user.
+4>Java packages such as java. util, java. awt, java. awt. event and javax. swing support event handling mechanism.
+
+====>Explanation:
+
+==>Event:
+1>When you press a button in your program or Android application the state of the button changes from ‘Unclicked’ to ‘Clicked’
+2>This change in the state of our button is called an Event. Events are generated based on how you interact with the GUI
+
+==>Source:
+1>The button you press is an object too. Sorce is the object which generates an event. In other words, a source is an object which undergoes state change.
+2>It also provides information about the event to the listener. We will talk about the listener in the other half of this post.
+
+==>Listeners:
+1>Listeners are also called as event handlers as they are the ones responsible to handle events occurring at the source.
+2>Listeners are interfaces and different types of listeners are used according to the event.
+
+<==>Event and Listener (Java Event Handling) :
+==>Changing the state of an object is known as an event. 
+==>For example, click on button, dragging mouse etc. 
+==>The java.awt.event package provides many event classes and Listener interfaces for event handling.
+
+1>Here, By using Java Swings package, i have created the required objects like frame, text fiels, buttons, radio buttons, scroll pane etc.
+2>Then I have registered the buttons with ActionListener and also the frame objects implements the ActionListener interface.
+3>Later if the all details required in Bank registration form are filled, then after clicking submit button, then those are set to one Text Field with correponding text label.
+4>Then reset button is pressed, the entered information is cleared and again new form is generated.
+
