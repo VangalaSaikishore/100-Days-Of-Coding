@@ -1,0 +1,40 @@
+====>Todays problem: Implementing The Java Program to Mark sheet form Using GUI
+
+====>Solution: Here This problem is simple and Here I have Implemented by using GUI Concept. 
+
+====>Basic Information Regarding The Concept:
+
+1>GUI stands for Graphical User Interface. It refers to an interface that allows one to interact with electronic devices like computers tablets through graphic elements.
+
+==>Basic Components of a GUI:
+
+1>Pointer: It is a symbol that appears on the display screen. It can be moved to select commands and objects.
+2>Pointing device: It allows you move the pointer and select objects on the screen, e.g. mouse or trackball.
+3>Icons: It refers to small images on the display screen that represent commands, files, windows etc. Using pointer and pointing device, you can execute these commands.
+4>Desktop: It is the display screen that contains the icons.
+
+====>Explanation:
+1>The process of creating a GUI in Swing starts with creating a class that represents the main GUI. 
+2>Swing and JavaFX are two commonly used applications to create GUIs in Java.
+
+==>Elements of GUI:
+A GUI comprises an array of user interface elements. All these elements are displayed when a user is interacting with an application and they are as follows:
+1>Input commands such as buttons, check boxes, dropdown lists and text fields.
+
+2>Informational components like banners, icons, labels or notification dialogs.
+
+3>Navigational units like menus, sidebars and breadcrumbs.
+
+4>As far as JavaFX is concerned, it consists of a totally different set of graphic components along with new features and terminologies.
+
+
+
+
+
+
+
+
+
+
+
+
